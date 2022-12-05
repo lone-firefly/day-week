@@ -1,9 +1,9 @@
 @import '../vendor/normalize.css';
 @import '../vendor/variables.css';
 @import '../vendor/fonts/fonts.css';
-/* Blocks */ 
+/* Blocks */
 @import '../blocks/page/page.css';
-/* Header */ 
+/* Header */
 @import '../blocks/header/header.css';
 @import '../blocks/header/__title/header__title.css';
 /* Main */

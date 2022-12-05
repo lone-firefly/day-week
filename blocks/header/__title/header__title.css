@@ -1,3 +1,41 @@
-.header__title{
-  
+.header__title {
+  color: rgb(196, 50, 50);
+  font-size: large;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__title {
+    color: rgb(50, 196, 113);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__title {
+    color: rgb(50, 79, 196);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header__title {
+    color: rgba(50, 125, 196, 0.49);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__title {
+    color: rgb(145, 50, 196);
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .header__title {
+    color: rgb(196, 50, 118);
+  }
+}
+
+@media screen and (max-width: 288px) {
+  .header__title {
+    color: rgb(196, 50, 121);
+    font-size: small;
+  }
 }
