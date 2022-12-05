@@ -1,3 +1,12 @@
-:root{
-  --variables : 10px; /* Переменная : свойтва */ 
+:root {
+  --font: 'Playfair Display', sans-serif;
+  --pink: #FE5A64;
+  --purpule: #5B7CAF;
+  --dark-purpule: #315895;
+  --white: #FFF;
+  --brown: #E0AD8F;
+  --bg-cards: ;
+  --black: #000;
+  --gray: #d9d9d9;
+  --bg-section-everyday: rgba(91, 124, 175, 0.85);
 }
