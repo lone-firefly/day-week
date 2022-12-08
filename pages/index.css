@@ -10,3 +10,56 @@
 @import '../blocks/main/main.css';
 /* Footer */
 @import '../blocks/footer/footer.css';
+
+/* TODO: Удалить после завершения */
+.list {
+}
+.link {
+}
+.header__link {
+}
+.header__container {
+}
+.header__title {
+}
+.header__subtitle {
+}
+.header__button {
+}
+
+.life {
+}
+.life__image {
+}
+.life__title {
+}
+.life__paragraph {
+}
+.daily-planer {
+}
+.daily-planer__image {
+}
+.daily-planer__title {
+}
+.daily-planer__paragraph {
+}
+.everyday {
+}
+.everyday__image {
+}
+.everyday__title {
+}
+.everyday__paragraph {
+}
+.products {
+}
+.products__title {
+}
+.products__cards {
+}
+.products__image {
+}
+.footer {
+}
+.footer__text {
+}
