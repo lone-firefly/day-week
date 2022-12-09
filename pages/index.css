@@ -1,65 +1,47 @@
-@import '../vendor/normalize.css';
-@import '../vendor/variables.css';
-@import '../vendor/fonts/fonts.css';
-/* Blocks */
-@import '../blocks/page/page.css';
+@import "../vendor/normalize.css";
+@import "../vendor/variables.css";
+@import "../vendor/fonts/fonts.css";
+/* Link */
+@import "../blocks/link/link.css";
+/* Page */
+@import "../blocks/page/page.css";
 /* Header */
-@import '../blocks/header/header.css';
-@import '../blocks/header/__title/header__title.css';
+@import "../blocks/header/header.css";
+@import "../blocks/header/__nav/header__nav.css";
+@import "../blocks/header/__title/header__title.css";
+@import "../blocks/header/__subtitle/header__subtitle.css";
+@import "../blocks/header/__lists/header__lists.css";
+@import "../blocks/header/__link/header__link.css";
+@import "../blocks/header/__container/header__container.css";
+@import "../blocks/header/__button/header__button.css";
+/* Nav */
+@import "../blocks/nav/nav.css";
 /* Main */
-@import '../blocks/main/main.css';
+@import "../blocks/main/main.css";
+/* Daily-Planer */
+@import "../blocks/daily-planer/daily-planer.css";
+@import "../blocks/daily-planer/__image/daily-planer__image.css";
+@import "../blocks/daily-planer/__paragraph/daily-planer__paragraph.css";
+@import "../blocks/daily-planer/__title/daily-planer__title.css";
+/* Everyday */
+@import "../blocks/everyday/everyday.css";
+@import "../blocks/everyday/__image/everyday__image.css";
+@import "../blocks/everyday/__paragraph/everyday__paragraph.css";
+@import "../blocks/everyday/__title/everyday__title.css";
+/* Life */
+@import "../blocks/life/life.css";
+@import "../blocks/life/__image/life__image.css";
+@import "../blocks/life/__paragraph/life__paragraph.css";
+@import "../blocks/life/__title/life__title.css";
+/* Lists */
+@import "../blocks/lists/lists.css";
+/* List */
+@import "../blocks/list/list.css";
+/* Products */
+@import "../blocks/products/products.css";
+@import "../blocks/products/__title/product__title.css";
+@import "../blocks/products/__image/product__image.css";
+@import "../blocks/products/__cards/product__cards.css";
 /* Footer */
-@import '../blocks/footer/footer.css';
-
-/* TODO: Удалить после завершения */
-.list {
-}
-.link {
-}
-.header__link {
-}
-.header__container {
-}
-.header__title {
-}
-.header__subtitle {
-}
-.header__button {
-}
-
-.life {
-}
-.life__image {
-}
-.life__title {
-}
-.life__paragraph {
-}
-.daily-planer {
-}
-.daily-planer__image {
-}
-.daily-planer__title {
-}
-.daily-planer__paragraph {
-}
-.everyday {
-}
-.everyday__image {
-}
-.everyday__title {
-}
-.everyday__paragraph {
-}
-.products {
-}
-.products__title {
-}
-.products__cards {
-}
-.products__image {
-}
-.footer {
-}
-.footer__text {
-}
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__text/footer__text.css";

@@ -1,0 +1,6 @@
+.header__lists {
+  min-width: 390px;
+  max-width: 390px;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,9 @@
+.daily-planer {
+    padding: 79.5px 40px 0;
+    height: 100%;
+    min-height: 720px;
+    max-height: 720px;
+    background-color: #E0AD8F;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

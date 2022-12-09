@@ -1,0 +1,11 @@
+.header__link {
+  font-style: italic;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--white);
+}
+
+.header__link:hover {
+  text-decoration: underline;
+  /* border-bottom: solid 2px var(--white); */
+}
