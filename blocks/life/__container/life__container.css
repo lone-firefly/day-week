@@ -1,0 +1,5 @@
+.life__container {
+  max-width: 590px;
+  display: grid;
+  gap: 48px;
+}

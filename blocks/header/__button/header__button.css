@@ -1,0 +1,14 @@
+.header__button {
+  width: 130px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--pink);
+  border-radius: 8px;
+  font-size: 14px;
+  color: var(--white);
+}
+
+/* @media screen and (max-width: 1024px) {
+}

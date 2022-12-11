@@ -1,0 +1,6 @@
+.daily-planer__paragraph {
+  margin: 0;
+  font-size: 30px;
+  line-height: 40px;
+  color: var(--white);
+}

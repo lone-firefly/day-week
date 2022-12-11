@@ -1,85 +1,116 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>DayWeek</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./pages/index.css">
-  <title>DayWeek</title>
-</head>
-
-<body class="page">
-  <header class="header">
-    <nav class="nav header__nav">
-      <ul class="lists header__lists">
-        <li class="list">
-          <a class="link header__link" href="#">Главная</a>
-        </li>
-        <li class="list">
-          <a class="link header__link" href="#life">О продукте</a>
-        </li>
-        <li class="list">
-          <a class="link header__link" href="#products">Корзина</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="header__container">
-      <h1 class="header__title">DayWeek</h1>
-      <p class="header__subtitle">прорыв в мире ежедневников</p>
-      <a class="link header__button" href="#">Купить</a>
-    </div>
-  </header>
-  <main class="main">
-    <section class="life" id="life">
-      <img class="life__image" src="./images/life/book.png" alt="Изображение Блокнота">
-      <h2 class="life__title"> Как справиться с переменами?
-        Как организовать свой день?
-        Как ничего не забыть и всё успеть?
-      </h2>
-      <p class="life__paragraph"> Поможет DayWeek!
-        DayWeek - уникальный ежедневник. Он подходит для любого образа жизни.
-        Возьмите его с собой на работу, учёбу, впутешествие.
-        Записывайте ваши планы на день, составляйте to do списки.
-        DayWeek - полная систематизация ваших мыслей и дел.
-      </p>
-    </section>
-    <section class="daily-planer">
-      <img class="daily-planer__image" src="./images/daily-planer/books.png" alt="Изображение блокнотов">
-      <h2 class="daily-planer__title"> Сделать ежедневник удобным и красивым?</h2>
-      <p class="daily-planer__paragraph"> DayWeek - ежедневник отражающий вашу индивидуальность.
-        Устанавливая приложение, вы получаете возможность настроить интерфейс в своём стиле.
-        А если нет времени и желания что-то менять - ничего страшного, по-умолчанию уже стоит удобная тема.
-        Теперь всё самое важное всегда на виду - добавьте виджет на ваше устройство и DayWeek напомнит вам о важных
-        делах!
-      </p>
-    </section>
-    <section class="everyday">
-      <img class="everyday__image" src="./images/everyday/compucter.png" alt="Изображение ноутбука">
-      <h2 class="everyday__title"> Как взять ежедневник с собой?</h2>
-      <p class="everyday__paragraph"> DayWeek - ежедневник который всегда рядом.
-        Теперь забыть ежедневник дома не получится.
-        DayWeek доступен на всех платформах.
-        Записывайте нателефоне, редактируйте накомпьютере, просматривайте на умных часах.
-      </p>
-      <p class="everyday__paragraph">DayWeek больше чем просто блокнот</p>
-    </section>
-    <section class="products" id="products">
-      <h2 class="products__title">Выбери свой Dayweek!</h2>
-      <div class="products__cards">
-        <a class="link" href="#">
-          <img class="products__image" src="./images/product/green-dayweek.png" alt="Зелёный ежедневник">
-        </a>
-        <a class="link" href="#">
-          <img class="products__image" src="./images/product/red-dayweek.png" alt="Розовый ежедневник">
-        </a>
+  <body class="page">
+    <header class="header">
+      <nav class="nav header__nav">
+        <ul class="lists header__lists">
+          <li class="list">
+            <a class="link header__link" href="#">Главная</a>
+          </li>
+          <li class="list">
+            <a class="link header__link" href="#life">О продукте</a>
+          </li>
+          <li class="list">
+            <a class="link header__link" href="#products">Корзина</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__container">
+        <h1 class="header__title">DayWeek</h1>
+        <p class="header__subtitle">прорыв в мире ежедневников</p>
+        <a class="link header__button" href="#">Купить</a>
       </div>
-    </section>
-  </main>
-  <footer class="footer">
-    <p class="footer__text">Lone Firefly</p>
-    <p class="footer__text">Павлова 233б</p>
-  </footer>
-</body>
-
+    </header>
+    <main class="main">
+      <section class="life" id="life">
+        <img
+          class="life__image"
+          src="./images/life/book.png"
+          alt="Изображение Блокнота"
+        />
+        <div class="life__container">
+          <h2 class="life__title">
+            Как справиться с переменами? Как организовать свой день? Как ничего
+            не забыть и всё успеть?
+          </h2>
+          <p class="life__paragraph">
+            Поможет DayWeek! DayWeek&nbsp;&mdash; уникальный ежедневник.
+            Он&nbsp;подходит для любого образа жизни. Возьмите его с&nbsp;собой
+            на&nbsp;работу, учёбу, в&nbsp;путешествие. Записывайте ваши планы
+            на&nbsp;день, составляйте to&nbsp;do&nbsp;списки.
+            DayWeek&nbsp;&mdash; полная систематизация ваших мыслей и&nbsp;дел
+          </p>
+        </div>
+      </section>
+      <section class="daily-planer">
+        <img
+          class="daily-planer__image"
+          src="./images/daily-planer/books.png"
+          alt="Изображение блокнотов"
+        />
+        <div class="daily-planer__container">
+          <h2 class="daily-planer__title">
+            Сделать ежедневник удобным и красивым?
+          </h2>
+          <p class="daily-planer__paragraph">
+            DayWeek&nbsp;&mdash; ежедневник отражающий вашу индивидуальность.
+            Устанавливая приложение, вы&nbsp;получаете возможность настроить
+            интерфейс в&nbsp;своём стиле. А&nbsp;если нет времени и&nbsp;желания
+            что-то менять&nbsp;&mdash; ничего страшного, по-умолчанию уже стоит
+            удобная тема. Теперь всё самое важное всегда
+            на&nbsp;виду&nbsp;&mdash; добавьте виджет на&nbsp;ваше устройство
+            и&nbsp;DayWeek напомнит вам о&nbsp;важных делах!
+          </p>
+        </div>
+      </section>
+      <section class="everyday">
+        <img
+          class="everyday__image"
+          src="./images/everyday/compucter.png"
+          alt="Изображение ноутбука"
+        />
+        <div class="everyday__container">
+          <h2 class="everyday__title">Как взять ежедневник с собой?</h2>
+          <p class="everyday__paragraph">
+            DayWeek - ежедневник который всегда рядом. Теперь забыть ежедневник
+            дома не получится. DayWeek доступен на всех платформах. Записывайте
+            нателефоне, редактируйте накомпьютере, просматривайте на умных
+            часах.
+          </p>
+          <p class="everyday__paragraph">DayWeek больше чем просто блокнот</p>
+        </div>
+      </section>
+      <section class="products" id="products">
+        <h2 class="products__title">Выбери свой Dayweek!</h2>
+        <div class="products__cards">
+          <a class="link" href="#">
+            <img
+              class="products__image"
+              src="./images/product/green-dayweek.png"
+              alt="Зелёный ежедневник"
+            />
+          </a>
+          <a class="link" href="#">
+            <img
+              class="products__image"
+              src="./images/product/red-dayweek.png"
+              alt="Розовый ежедневник"
+            />
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">Lone Firefly</p>
+      <p class="footer__text">Павлова 233б</p>
+    </footer>
+  </body>
 </html>

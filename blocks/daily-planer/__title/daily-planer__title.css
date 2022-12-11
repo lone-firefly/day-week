@@ -1,0 +1,6 @@
+.daily-planer__title {
+  margin: 0;
+  font-size: 35px;
+  line-height: 47px;
+  color: var(--white);
+}

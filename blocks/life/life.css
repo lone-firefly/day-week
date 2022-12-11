@@ -1,9 +1,13 @@
 .life {
-    padding: 83px 40px 0;
-    height: 100%;
-    min-height: 720px;
-    max-height: 720px;
-    background-color: aliceblue;
-    background-repeat: no-repeat;
-    background-size: cover;
+  padding: 83px 40px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1236px) {
+  .life {
+    display: grid;
+    justify-content: center;
   }
+}

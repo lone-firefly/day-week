@@ -1,0 +1,6 @@
+.daily-planer__container {
+  max-width: 590px;
+  order: -1;
+  display: grid;
+  gap: 41px;
+}

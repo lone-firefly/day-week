@@ -1,0 +1,14 @@
+.header__subtitle {
+  margin: 0 0 30px;
+  max-width: 330px;
+  font-style: italic;
+  font-size: 50px;
+  color: var(--white);
+}
+
+@media screen and (max-width: 520px) {
+  .header__subtitle {
+    text-align: center;
+    font-size: 25px;
+  }
+}

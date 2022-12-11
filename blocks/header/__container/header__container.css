@@ -1,0 +1,11 @@
+.header__container {
+  margin-top: 100px;
+  display: grid;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 520px) {
+  .header__container {
+    justify-content: center;
+  }
+}

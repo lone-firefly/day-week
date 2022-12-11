@@ -1,0 +1,7 @@
+.life__paragraph {
+  margin: 0;
+  max-height: 354px;
+  font-size: 30px;
+  line-height: 40px;
+  color: var(--purpule);
+}

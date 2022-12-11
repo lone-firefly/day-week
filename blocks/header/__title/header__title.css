@@ -1,15 +1,13 @@
 .header__title {
-  /* color: rgb(196, 50, 50); */
-   font-size: large; /*100px */
+  margin: 0 0 25px;
+  font-style: oblique;
+  font-size: 100px;
+  color: var(--white);
 }
 
-
-
-@media screen and (max-width: 1024px) {}
-
-@media screen and (max-width: 768px) {}
-
-@media screen and (max-width: 480px) {}
-
-@media screen and (max-width: 320px) {}
-
+@media screen and (max-width: 520px) {
+  .header__title {
+    text-align: center;
+    font-size: 50px;
+  }
+}

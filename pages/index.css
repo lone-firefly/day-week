@@ -20,6 +20,7 @@
 @import "../blocks/main/main.css";
 /* Daily-Planer */
 @import "../blocks/daily-planer/daily-planer.css";
+@import "../blocks/daily-planer/__container/daily-planer__container.css";
 @import "../blocks/daily-planer/__image/daily-planer__image.css";
 @import "../blocks/daily-planer/__paragraph/daily-planer__paragraph.css";
 @import "../blocks/daily-planer/__title/daily-planer__title.css";
@@ -30,6 +31,7 @@
 @import "../blocks/everyday/__title/everyday__title.css";
 /* Life */
 @import "../blocks/life/life.css";
+@import "../blocks/life/__container/life__container.css";
 @import "../blocks/life/__image/life__image.css";
 @import "../blocks/life/__paragraph/life__paragraph.css";
 @import "../blocks/life/__title/life__title.css";
