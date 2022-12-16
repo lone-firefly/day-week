@@ -4,3 +4,9 @@
   line-height: 40px;
   color: var(--white);
 }
+
+@media screen and (max-width: 320px) {
+  .daily-planer__paragraph {
+    font-size: 18px;
+  }
+}

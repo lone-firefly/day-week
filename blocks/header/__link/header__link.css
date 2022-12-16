@@ -7,5 +7,4 @@
 
 .header__link:hover {
   text-decoration: underline;
-  /* border-bottom: solid 2px var(--white); */
 }

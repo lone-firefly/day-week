@@ -6,7 +6,7 @@
   color: var(--white);
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 1024px) {
   .header__subtitle {
     text-align: center;
     font-size: 25px;

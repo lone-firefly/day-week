@@ -13,6 +13,7 @@
 @import "../blocks/header/__lists/header__lists.css";
 @import "../blocks/header/__link/header__link.css";
 @import "../blocks/header/__container/header__container.css";
+@import "../blocks/header/__container-descripton/header__container-descripton.css";
 @import "../blocks/header/__button/header__button.css";
 /* Nav */
 @import "../blocks/nav/nav.css";
@@ -26,6 +27,7 @@
 @import "../blocks/daily-planer/__title/daily-planer__title.css";
 /* Everyday */
 @import "../blocks/everyday/everyday.css";
+@import "../blocks/everyday/__container/everyday__container.css";
 @import "../blocks/everyday/__image/everyday__image.css";
 @import "../blocks/everyday/__paragraph/everyday__paragraph.css";
 @import "../blocks/everyday/__title/everyday__title.css";
@@ -41,9 +43,9 @@
 @import "../blocks/list/list.css";
 /* Products */
 @import "../blocks/products/products.css";
-@import "../blocks/products/__title/product__title.css";
-@import "../blocks/products/__image/product__image.css";
-@import "../blocks/products/__cards/product__cards.css";
+@import "../blocks/products/__title/products__title.css";
+@import "../blocks/products/__image/products__image.css";
+@import "../blocks/products/__cards/products__cards.css";
 /* Footer */
 @import "../blocks/footer/footer.css";
 @import "../blocks/footer/__text/footer__text.css";

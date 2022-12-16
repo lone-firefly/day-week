@@ -1,0 +1,14 @@
+.products__title {
+  margin: 47px 0 41px 0;
+  font-style: italic;
+  font-size: 50px;
+  font-weight: normal;
+  color: var(--black);
+  text-align: center;
+}
+
+@media screen and (max-width: 1236px) {
+  .products__image {
+    margin: 47px 0 90px 0;
+  }
+}

@@ -1,0 +1,12 @@
+.everyday__paragraph {
+  margin: 0;
+  font-size: 30px;
+  line-height: 40px;
+  color: var(--white);
+}
+
+@media screen and (max-width: 320px) {
+  .everyday__paragraph {
+    font-size: 18px;
+  }
+}

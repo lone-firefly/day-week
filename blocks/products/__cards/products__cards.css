@@ -1,13 +1,12 @@
-.everyday {
-  padding: 81px 40px;
+.products__cards {
   display: flex;
+  gap: 209px;
   justify-content: center;
-  gap: 20px;
-  background: var(--purpule);
 }
 
 @media screen and (max-width: 1236px) {
-  .everyday {
+  .products__cards {
     display: grid;
+    gap: 50px;
   }
 }

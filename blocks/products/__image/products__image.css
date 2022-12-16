@@ -1,0 +1,26 @@
+.products__image {
+  width: 486px;
+  height: 416px;
+  object-fit: fill;
+}
+
+/* @media screen and (max-width: 1236px) {
+  .products__image {
+    width: 350px;
+    height: 370px;
+  }
+} */
+
+@media screen and (max-width: 375px) {
+  .products__image {
+    width: 207px;
+    height: 224px;
+  }
+}
+
+/* .life__image:hover {
+
+}
+.life__image:after {
+
+}  */

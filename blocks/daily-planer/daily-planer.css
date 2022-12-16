@@ -5,3 +5,9 @@
   gap: 20px;
   background: var(--brown);
 }
+
+@media screen and (max-width: 1236px) {
+  .daily-planer {
+    display: grid;
+  }
+}

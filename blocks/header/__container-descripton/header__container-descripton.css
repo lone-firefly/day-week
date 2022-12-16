@@ -1,0 +1,12 @@
+.header__container-descripton {
+  margin: 100px 0 0 0;
+  display: grid;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__container-descripton {
+    justify-content: center;
+    justify-items: center;
+  }
+}

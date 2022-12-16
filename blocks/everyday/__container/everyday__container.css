@@ -1,3 +1,6 @@
 .everyday__container {
   max-width: 590px;
+  display: grid;
+  gap: 62px;
+  /* justify-content: center; */
 }

@@ -4,3 +4,9 @@
   display: grid;
   gap: 41px;
 }
+
+@media screen and (max-width: 1236px) {
+  .daily-planer__container {
+    order: 0;
+  }
+}

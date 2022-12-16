@@ -3,5 +3,11 @@
   max-height: 354px;
   font-size: 30px;
   line-height: 40px;
-  color: var(--purpule);
+  color: var(--dark-purpule);
+}
+
+@media screen and (max-width: 320px) {
+  .life__paragraph {
+    font-size: 18px;
+  }
 }
