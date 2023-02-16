@@ -11,6 +11,12 @@
   }
 } */
 
+@media screen and (max-width: 1236px) {
+  .products__image {
+    margin: 47px 0 90px 0;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .products__image {
     width: 207px;

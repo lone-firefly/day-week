@@ -6,9 +6,3 @@
   color: var(--black);
   text-align: center;
 }
-
-@media screen and (max-width: 1236px) {
-  .products__image {
-    margin: 47px 0 90px 0;
-  }
-}
