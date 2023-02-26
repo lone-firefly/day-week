@@ -1,0 +1,5 @@
+.card__like {
+  border: none;
+  cursor: pointer;
+  background-color: var(--white);
+}
