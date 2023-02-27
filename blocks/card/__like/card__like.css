@@ -2,4 +2,9 @@
   border: none;
   cursor: pointer;
   background-color: var(--white);
+  margin-top: 25px;
+  display: flex;
+  justify-content: right;
+  padding: 0;
+  margin-right: 32px;
 }

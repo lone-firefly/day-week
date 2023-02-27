@@ -1,10 +1,10 @@
 :root {
-  --font: 'Playfair Display', sans-serif;
-  --pink: #FE5A64;
-  --purpule: #5B7CAF;
+  --font: "Playfair Display", sans-serif;
+  --pink: #fe5a64;
+  --purpule: #5b7caf;
   --dark-purpule: #315895;
-  --white: #FFF;
-  --brown: #E0AD8F;
+  --white: #fff;
+  --brown: #e0ad8f;
   --bg-cards: ;
   --black: #000;
   --gray: #d9d9d9;

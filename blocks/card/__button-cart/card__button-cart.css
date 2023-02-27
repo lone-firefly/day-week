@@ -1,4 +1,17 @@
 .card__button-cart {
   border: none;
   cursor: pointer;
+  padding: 0;
+  width: 173px;
+  height: 36px;
+  background-color: var(--pink);
+  border-radius: 6px;
+}
+
+.card__button-cart:hover {
+  background: var(--purpule);
+}
+
+.card__button-cart:active {
+  background: var(--dark-purpule);
 }

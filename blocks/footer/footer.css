@@ -2,7 +2,7 @@
   padding: 83px 40px;
   display: flex;
   gap: 20px;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 375px) {

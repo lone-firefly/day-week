@@ -1,0 +1,12 @@
+.catalog-header__search-string {
+  border-color: var(--pink);
+  border-radius: 16px;
+  width: 775px;
+  height: 41px;
+  padding: 0;
+  margin-top: 3px;
+}
+
+.catalog-header__search-string:active {
+  border-color: var(--dark-purpule);
+}
