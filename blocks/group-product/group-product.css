@@ -1,0 +1,7 @@
+.group-product {
+  width: 856px;
+  height: 197px;
+  box-shadow: 0px 4px 20px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  display: flex;
+}

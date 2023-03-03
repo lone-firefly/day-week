@@ -1,0 +1,6 @@
+.group-product__second-price {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--pink);
+  text-decoration: line-through;
+}

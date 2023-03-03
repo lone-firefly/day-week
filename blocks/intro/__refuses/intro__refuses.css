@@ -1,0 +1,6 @@
+.intro__refuses {
+  color: var(--brown);
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: underline;
+}

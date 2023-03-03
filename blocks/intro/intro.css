@@ -1,0 +1,6 @@
+.intro {
+  max-height: 37px;
+  display: flex;
+  gap: 17px;
+  margin-top: 12px;
+}

@@ -1,0 +1,8 @@
+.about-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1197px;
+  height: 72px;
+  margin-top: 25px;
+}

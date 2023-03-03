@@ -1,0 +1,17 @@
+.content__button-bag {
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 236px;
+  height: 31.72px;
+  background-color: var(--pink);
+  border-radius: 6px;
+}
+
+.content__button-bag:hover {
+  background: var(--purpule);
+}
+
+.content__button-bag:active {
+  background: var(--dark-purpule);
+}

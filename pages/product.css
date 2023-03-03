@@ -1,3 +1,55 @@
 @import "../vendor/normalize.css";
 @import "../vendor/variables.css";
 @import "../vendor/fonts/fonts.css";
+/* Page */
+@import "../blocks/page/page.css";
+/* Header */
+@import "../blocks/catalog-header/catalog-header.css";
+@import "../blocks/catalog-header/__bag/catalog-header__bag.css";
+@import "../blocks/catalog-header/__bag-text/catalog-header__bag-text.css";
+@import "../blocks/catalog-header/__img-arrow/catalog-header__img-arrow.css";
+@import "../blocks/catalog-header/__img-bag/catalog-header__img-bag.css";
+@import "../blocks/catalog-header/__img-search/catalog-header__img-search.css";
+@import "../blocks/catalog-header/__search/catalog-header__search.css";
+@import "../blocks/catalog-header/__search-string/catalog-header__search-string.css";
+@import "../blocks/catalog-header/__text/catalog-header__text.css";
+/* Product-Main */
+@import "../blocks/product-main/product-main.css";
+@import "../blocks/product-main/__title/product-main__title.css";
+/* Intro */
+@import "../blocks/intro/intro.css";
+@import "../blocks/intro/__articul/intro__articul.css";
+@import "../blocks/intro/__img-stars/intro__img-stars.css";
+@import "../blocks/intro/__num-buy/intro__num-buy.css";
+@import "../blocks/intro/__refuses/intro__refuses.css";
+/* Content */
+@import "../blocks/content/content.css";
+@import "../blocks/content/__button-bag/content__button-bag.css";
+@import "../blocks/content/__card/content__card.css";
+@import "../blocks/content/__color-descript/content__color-descript.css";
+@import "../blocks/content/__color-group/content__color-group.css";
+@import "../blocks/content/__color-images/content__color-images.css";
+@import "../blocks/content/__color-text/content__color-text.css";
+@import "../blocks/content/__delivery-text/content__delivery-text.css";
+@import "../blocks/content/__desc-subtitle/content__desc-subtitle.css";
+@import "../blocks/content/__desc-text/content__desc-text.css";
+@import "../blocks/content/__desc-title/content__desc-title.css";
+@import "../blocks/content/__description/content__description.css";
+@import "../blocks/content/__first-price/content__first-price.css";
+@import "../blocks/content/__group-img/content__group-img.css";
+@import "../blocks/content/__img-blue-note/content__img-blue-note.css";
+@import "../blocks/content/__img-corner/content__img-corner.css";
+@import "../blocks/content/__img-green-note/content__img-green-note.css";
+@import "../blocks/content/__img-heart/content__img-heart.css";
+@import "../blocks/content/__img-notebook/content__img-notebook.css";
+@import "../blocks/content/__img-pages/content__img-pages.css";
+@import "../blocks/content/__img-planner/content__img-planner.css";
+@import "../blocks/content/__img-red-note/content__img-red-note.css";
+@import "../blocks/content/__second-price/content__second-price.css";
+/* About-product */
+@import "../blocks/about-product/about-product.css";
+@import "../blocks/about-product/__subtitle/about-product__subtitle.css";
+@import "../blocks/about-product/__text/about-product__text.css";
+/* Footer */
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__text/footer__text.css";

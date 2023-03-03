@@ -1,0 +1,6 @@
+.content__group-img {
+  display: flex;
+  flex-direction: column;
+  margin-right: 21px;
+  gap: 32px;
+}

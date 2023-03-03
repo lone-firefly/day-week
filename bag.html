@@ -10,41 +10,68 @@
   <body class="page">
     <header class="catalog-header">
       <img
-        class="header__nav-info"
+        class="catalog-header__img-arrow"
         src="./images/header/__img-arrow.png"
         alt="Логотип стрелки"
       />
-      <p class="header__nav"></p>
-      <div class="header__search">
+      <p class="catalog-header__text">Главная / Магазин</p>
+      <div class="catalog-header__search">
         <img
-          class="header__img-search"
+          class="catalog-header__img-search"
           src="./images/header/__img-search.png"
           alt="Логотип поиска"
         />
-        <img
-          class="header__search-string"
-          src="./images/header/__search-string.png"
-          alt="Поле для ввода"
-        />
+        <input class="catalog-header__search-string" type="search" />
       </div>
-      <div class="header__bag">
-        <p class="header__bag-text">Корзина</p>
+      <a class="catalog-header__bag" href="bag.html">
+        <p class="catalog-header__bag-text">Корзина</p>
         <img
-          class="header__img-bag"
+          class="catalog-header__img-bag"
           src="./images/header/__img-bag.png"
           alt="Логотип корзины"
         />
-      </div>
+      </a>
     </header>
     <main class="bag-main">
       <div class="bag-main__group-title">
         <h1 class="bag-main__bag-title">Корзина</h1>
         <p class="bag-main__product-num">1 товар</p>
       </div>
-      <section class="group-product"></section>
-      <section class="group-delivery"></section>
-      <section class="group-payment"></section>
-      <section class="card"></section>
+      <section class="group-product">
+        <img
+          class="group-product__img-notebook"
+          src="./images/card/__img-attack-notebook.png"
+          alt="Изображение блокнота"
+        />
+        <div class="group-product__group-text">
+          <p class="group-product__title">Посвятите сердца / скетчбук</p>
+          <p class="group-product__subtitle">Отказ от товара 100 ₽</p>
+        </div>
+        <div class="group-product__num-buttons">
+          <button class="group-product__minus">-</button>
+          <button class="group-product__num">1</button>
+          <button class="group-product__plus">+</button>
+        </div>
+        <p class="group-product__first-price">827 ₽</p>
+        <p class="group-product__second-price">211 ₽</p>
+      </section>
+      <section class="bag-card">
+        <div class="bag-card__group-summery">
+          <div class="bag-card__price">
+            <p class="bag-card__text">1 товар</p>
+            <p class="bag-card__text">827 ₽</p>
+          </div>
+          <div class="bag-card__discount">
+            <p class="bag-card__text">Скидка</p>
+            <p class="bag-card__text" style="color: var(--pink)">-211 ₽</p>
+          </div>
+          <div class="bag-card__summery">
+            <p class="bag-card__summery-text">Итого:</p>
+            <p class="bag-card__summery-text">616 ₽</p>
+          </div>
+        </div>
+        <button class="bag-card__button-bag">Заказать</button>
+      </section>
     </main>
     <footer class="footer">
       <p class="footer__text">Lone Firefly</p>

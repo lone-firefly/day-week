@@ -1,0 +1,19 @@
+.bag-card__button-bag {
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 173px;
+  height: 36px;
+  background-color: var(--pink);
+  border-radius: 6px;
+  color: var(--white);
+  margin-top: 25px;
+}
+
+.bag-card__button-bag:hover {
+  background: var(--purpule);
+}
+
+.bag-card__button-bag:active {
+  background: var(--dark-purpule);
+}

@@ -1,3 +1,45 @@
 @import "../vendor/normalize.css";
 @import "../vendor/variables.css";
 @import "../vendor/fonts/fonts.css";
+/* Page */
+@import "../blocks/page/page.css";
+/* Header */
+@import "../blocks/catalog-header/catalog-header.css";
+@import "../blocks/catalog-header/__bag/catalog-header__bag.css";
+@import "../blocks/catalog-header/__bag-text/catalog-header__bag-text.css";
+@import "../blocks/catalog-header/__img-arrow/catalog-header__img-arrow.css";
+@import "../blocks/catalog-header/__img-bag/catalog-header__img-bag.css";
+@import "../blocks/catalog-header/__img-search/catalog-header__img-search.css";
+@import "../blocks/catalog-header/__search/catalog-header__search.css";
+@import "../blocks/catalog-header/__search-string/catalog-header__search-string.css";
+@import "../blocks/catalog-header/__text/catalog-header__text.css";
+/* Main */
+@import "../blocks/bag-main/bag-main.css";
+@import "../blocks/bag-main/__bag-title/bag-main__bag-title.css";
+@import "../blocks/bag-main/__group-title/bag-main__group-title.css";
+@import "../blocks/bag-main/__product-num/bag-main__product-num.css";
+/* Group-product */
+@import "../blocks/group-product/group-product.css";
+@import "../blocks/group-product/__first-price/group-product__first-price.css";
+@import "../blocks/group-product/__group-text/group-product__group-text.css";
+@import "../blocks/group-product/__img-notebook/group-product__img-notebook.css";
+@import "../blocks/group-product/__minus/group-product__minus.css";
+@import "../blocks/group-product/__num-buttons/group-product__num-buttons.css";
+@import "../blocks/group-product/__num/group-product__num.css";
+@import "../blocks/group-product/__plus/group-product__plus.css";
+@import "../blocks/group-product/__second-price/group-product__second-price.css";
+@import "../blocks/group-product/__title/group-product__title.css";
+@import "../blocks/group-product/__subtitle/group-product__subtitle.css";
+/* Bag-card */
+@import "../blocks/bag-card/__button-bag/bag-card__button-bag.css";
+@import "../blocks/bag-card/__discount/bag-card__discount.css";
+@import "../blocks/bag-card/__group-summery/bag-card__group-summery.css";
+@import "../blocks/bag-card/__price/bag-card__price.css";
+@import "../blocks/bag-card/__summery-text/bag-card__summery-text.css";
+@import "../blocks/bag-card/__summery/bag-card__summery.css";
+@import "../blocks/bag-card/__text/bag-card__text.css";
+/* Image */
+@import "../images/card/__img-attack-notebook.png";
+/* Footer */
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__text/footer__text.css";

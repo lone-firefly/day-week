@@ -1,5 +1,10 @@
 .catalog-header__bag {
+  border: none;
+  cursor: pointer;
+  background-color: var(--white);
   display: flex;
   flex-direction: column-reverse;
   gap: 1px;
+  text-decoration: none;
+  color: var(--black);
 }
