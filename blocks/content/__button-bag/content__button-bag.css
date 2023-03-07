@@ -6,6 +6,7 @@
   height: 31.72px;
   background-color: var(--pink);
   border-radius: 6px;
+  color: var(--white);
 }
 
 .content__button-bag:hover {

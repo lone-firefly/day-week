@@ -2,7 +2,7 @@
   width: 23px;
   height: 23px;
   background-color: var(--pink);
-  border-radius: 6px;
+  border-radius: 6px 0 0 6px;
   border: none;
   cursor: pointer;
   color: var(--white);

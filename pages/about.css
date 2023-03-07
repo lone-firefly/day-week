@@ -1,0 +1,33 @@
+@import "../vendor/normalize.css";
+@import "../vendor/variables.css";
+@import "../vendor/fonts/fonts.css";
+/* Page */
+@import "../blocks/page/page.css";
+/* Header */
+@import "../blocks/catalog-header/catalog-header.css";
+@import "../blocks/catalog-header/__bag/catalog-header__bag.css";
+@import "../blocks/catalog-header/__bag-text/catalog-header__bag-text.css";
+@import "../blocks/catalog-header/__img-arrow/catalog-header__img-arrow.css";
+@import "../blocks/catalog-header/__img-bag/catalog-header__img-bag.css";
+@import "../blocks/catalog-header/__img-search/catalog-header__img-search.css";
+@import "../blocks/catalog-header/__search/catalog-header__search.css";
+@import "../blocks/catalog-header/__search-string/catalog-header__search-string.css";
+@import "../blocks/catalog-header/__text/catalog-header__text.css";
+/* Main */
+@import "../blocks/about-main/about-main.css";
+@import "../blocks/about-main/__greeting/about-main__greeting.css";
+@import "../blocks/about-main/__reasons-group/about-main__reasons-group.css";
+@import "../blocks/about-main/__reasons-subtitle/about-main__reasons-subtitle.css";
+@import "../blocks/about-main/__subtitle/about-main__subtitle.css";
+@import "../blocks/about-main/__text/about-main__text.css";
+@import "../blocks/about-main/__title/about-main__title.css";
+@import "../blocks/about-main/__about-text/about-main__about-text.css";
+@import "../blocks/about-main/__lists/about-main__lists.css";
+/* About-list */
+@import "../blocks/about-list/about-list.css";
+/* Refuses */
+@import "../blocks/refuses/refuses.css";
+@import "../blocks/refuses/__title/refuses__title.css";
+/* Footer */
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__text/footer__text.css";

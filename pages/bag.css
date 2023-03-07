@@ -38,8 +38,7 @@
 @import "../blocks/bag-card/__summery-text/bag-card__summery-text.css";
 @import "../blocks/bag-card/__summery/bag-card__summery.css";
 @import "../blocks/bag-card/__text/bag-card__text.css";
-/* Image */
-@import "../images/card/__img-attack-notebook.png";
+@import "../blocks/bag-card/__text/_pink/bag-card__text_pink.css";
 /* Footer */
 @import "../blocks/footer/footer.css";
 @import "../blocks/footer/__text/footer__text.css";

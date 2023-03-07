@@ -6,6 +6,7 @@
   height: 36px;
   background-color: var(--pink);
   border-radius: 6px;
+  color: var(--white);
 }
 
 .card__button-cart:hover {
