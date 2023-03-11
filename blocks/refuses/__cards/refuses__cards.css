@@ -1,0 +1,5 @@
+.refuses__cards {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+}

@@ -21,12 +21,14 @@
 @import "../blocks/card/card.css";
 @import "../blocks/card/__about-group/card__about-group.css";
 @import "../blocks/card/__button-cart/card__button-cart.css";
+@import "../blocks/card/__button-group/card__button-group.css";
 @import "../blocks/card/__content/card__content.css";
 @import "../blocks/card/__figure/card__figure.css";
 @import "../blocks/card/__image/card__image.css";
 @import "../blocks/card/__img-heart/card__img-heart.css";
 @import "../blocks/card/__like/card__like.css";
 @import "../blocks/card/__price/card__price.css";
+@import "../blocks/card/__price-group/card__price-group.css";
 @import "../blocks/card/__stars/card__stars.css";
 @import "../blocks/card/__title/card__title.css";
 /* Footer */

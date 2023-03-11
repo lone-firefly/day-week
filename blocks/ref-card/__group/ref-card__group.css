@@ -1,0 +1,6 @@
+.ref-card__group {
+  display: flex;
+  gap: 24px;
+  text-align: center;
+  margin-top: 32px;
+}

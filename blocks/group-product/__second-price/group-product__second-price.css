@@ -3,4 +3,5 @@
   font-weight: 400;
   color: var(--pink);
   text-decoration: line-through;
+  margin: 0;
 }

@@ -7,6 +7,7 @@
   background-color: var(--pink);
   border-radius: 6px;
   color: var(--white);
+  margin-top: 16px;
 }
 
 .card__button-cart:hover {

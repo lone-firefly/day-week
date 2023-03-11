@@ -1,0 +1,4 @@
+.card__button-group {
+  display: flex;
+  gap: 21px;
+}

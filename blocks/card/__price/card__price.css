@@ -1,4 +1,7 @@
 .card__price {
   font-size: 30px;
   font-weight: 700;
+  margin: 0;
+  width: 75px;
+  height: 32px;
 }

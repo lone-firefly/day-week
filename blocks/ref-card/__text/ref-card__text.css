@@ -1,6 +1,6 @@
-.group-product__title {
+.ref-card__text {
   font-size: 16px;
   font-weight: 400;
-  height: 21px;
   margin: 0;
+  max-width: 290px;
 }

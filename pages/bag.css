@@ -18,6 +18,7 @@
 @import "../blocks/bag-main/__bag-title/bag-main__bag-title.css";
 @import "../blocks/bag-main/__group-title/bag-main__group-title.css";
 @import "../blocks/bag-main/__product-num/bag-main__product-num.css";
+@import "../blocks/bag-main/__group/bag-main__group.css";
 /* Group-product */
 @import "../blocks/group-product/group-product.css";
 @import "../blocks/group-product/__first-price/group-product__first-price.css";
@@ -30,7 +31,9 @@
 @import "../blocks/group-product/__second-price/group-product__second-price.css";
 @import "../blocks/group-product/__title/group-product__title.css";
 @import "../blocks/group-product/__subtitle/group-product__subtitle.css";
+@import "../blocks/group-product/__price/group-product__price.css";
 /* Bag-card */
+@import "../blocks/bag-card/bag-card.css";
 @import "../blocks/bag-card/__button-bag/bag-card__button-bag.css";
 @import "../blocks/bag-card/__discount/bag-card__discount.css";
 @import "../blocks/bag-card/__group-summery/bag-card__group-summery.css";

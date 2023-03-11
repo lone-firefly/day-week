@@ -2,12 +2,12 @@
   border: none;
   cursor: pointer;
   padding: 0;
-  width: 173px;
-  height: 36px;
+  width: 236px;
+  height: 31.72px;
   background-color: var(--pink);
   border-radius: 6px;
   color: var(--white);
-  margin-top: 25px;
+  font-size: 14px;
 }
 
 .bag-card__button-bag:hover {

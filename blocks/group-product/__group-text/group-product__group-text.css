@@ -1,4 +1,4 @@
 .group-product__group-text {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  gap: 4px;
 }

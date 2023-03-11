@@ -1,0 +1,14 @@
+.footer__about {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  border: none;
+  background-color: var(--white);
+  width: 1200px;
+  height: 42px;
+  cursor: pointer;
+}
+
+.footer__about:hover {
+  background-color: var(--purpule);
+}

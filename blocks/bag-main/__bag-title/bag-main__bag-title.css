@@ -1,4 +1,7 @@
 .bag-main__bag-title {
   font-size: 24px;
   font-weight: 700;
+  margin: 0;
+  width: 103px;
+  height: 35px;
 }

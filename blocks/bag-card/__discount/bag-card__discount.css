@@ -1,3 +1,6 @@
 .bag-card__discount {
   display: flex;
+  width: 229px;
+  height: 26px;
+  justify-content: space-between;
 }

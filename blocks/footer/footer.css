@@ -2,7 +2,8 @@
   padding: 83px 40px;
   display: flex;
   gap: 20px;
-  justify-content: space-between;
+  /* justify-content: center;  для кнопки*/
+  justify-content: space-between; /* для обычного */
 }
 
 @media screen and (max-width: 375px) {

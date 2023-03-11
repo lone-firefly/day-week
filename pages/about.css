@@ -27,7 +27,17 @@
 @import "../blocks/about-list/about-list.css";
 /* Refuses */
 @import "../blocks/refuses/refuses.css";
+@import "../blocks/refuses/__cards/refuses__cards.css";
 @import "../blocks/refuses/__title/refuses__title.css";
+/* Ref-card */
+@import "../blocks/ref-card/ref-card.css";
+@import "../blocks/ref-card/__group/ref-card__group.css";
+@import "../blocks/ref-card/__img-black-cat/ref-card__img-black-cat.css";
+@import "../blocks/ref-card/__img-cat/ref-card__img-cat.css";
+@import "../blocks/ref-card/__img-red-cat/ref-card__img-red-cat.css";
+@import "../blocks/ref-card/__text/ref-card__text.css";
+@import "../blocks/ref-card/__text/_brown/ref-card__text_brown.css";
 /* Footer */
 @import "../blocks/footer/footer.css";
 @import "../blocks/footer/__text/footer__text.css";
+@import "../blocks/footer/__about/footer__about.css";

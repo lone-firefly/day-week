@@ -1,6 +1,6 @@
 .bag-card__group-summery {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  gap: 0;
   width: 306px;
   height: 154px;
   background-color: var(--white);

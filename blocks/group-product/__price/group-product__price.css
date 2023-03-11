@@ -1,0 +1,4 @@
+.group-product__price {
+  display: flex;
+  gap: 8px;
+}

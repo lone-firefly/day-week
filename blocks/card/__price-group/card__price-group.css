@@ -1,0 +1,7 @@
+.card__price-group {
+  display: grid;
+  gap: 15px;
+  margin-left: 59px;
+  width: 114px;
+  justify-content: flex-start;
+}
