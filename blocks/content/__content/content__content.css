@@ -1,0 +1,9 @@
+.content__content {
+  display: flex;
+  gap: 80px;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 236px;
+  height: 36px;
+  margin-top: 15px;
+}

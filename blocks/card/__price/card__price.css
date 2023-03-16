@@ -5,3 +5,9 @@
   width: 75px;
   height: 32px;
 }
+
+@media screen and (max-width: 925px) {
+  .card__price {
+    font-size: 26px;
+  }
+}

@@ -5,3 +5,12 @@
   width: 114px;
   justify-content: flex-start;
 }
+
+@media screen and (max-width: 925px) {
+  .card__price-group {
+    gap: 0;
+    width: 76px;
+    height: 54.85px;
+    margin: 0;
+  }
+}

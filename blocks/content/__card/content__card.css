@@ -4,12 +4,16 @@
   background: #ffffff;
   box-shadow: 0px 4px 20px 3px rgba(0, 0, 0, 0.25);
   border-radius: 16px;
-  /* display: flex;
-  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* flex-wrap: wrap;
   justify-content: center; */
-  display: grid;
+  /* display: grid;
+  align-items: center;
+  justify-items: center; */
   /* grid-template-columns: [start] 110px [line2] 117px [line3] 40px [end];
   grid-template-rows: [row1-start] 64px [row1-end] 49px [last]; */
-  grid-template-rows: 50px 150px;
-  grid-auto-rows: 20px;
+  /* grid-template-rows: 50px 150px;
+  grid-auto-rows: 20px; */
 }

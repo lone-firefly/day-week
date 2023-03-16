@@ -5,3 +5,14 @@
   line-height: 47px;
   color: var(--black);
 }
+
+@media screen and (max-width: 768px) {
+  .footer__text {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .footer__text {
+    font-size: 12px;
+  }
+}

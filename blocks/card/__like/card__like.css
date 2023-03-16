@@ -8,3 +8,10 @@
   padding: 0;
   margin-right: 32px;
 }
+
+@media screen and (max-width: 925px) {
+  .card__like {
+    margin-top: 16.56px;
+    margin-right: 21.96px;
+  }
+}

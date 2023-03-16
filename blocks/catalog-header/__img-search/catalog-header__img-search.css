@@ -5,3 +5,12 @@
   top: 6px;
   left: 41px;
 }
+
+@media screen and (max-width: 925px) {
+  .catalog-header__img-search {
+    width: 22.61px;
+    height: 21.66px;
+    top: 2px;
+    left: 25px;
+  }
+}

@@ -7,6 +7,8 @@
   background-color: var(--pink);
   border-radius: 6px;
   color: var(--white);
+  font-size: 14px;
+  margin-top: 13px;
 }
 
 .content__button-bag:hover {

@@ -3,3 +3,8 @@
   font-size: 16px;
   font-style: italic;
 }
+@media screen and (max-width: 925px) {
+  .catalog-header__bag-text {
+    font-size: 14px;
+  }
+}

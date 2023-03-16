@@ -8,3 +8,18 @@
   justify-content: center;
   gap: 30px;
 }
+
+@media screen and (max-width: 925px) {
+  .cards {
+    gap: 28px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .cards {
+    display: grid;
+    align-items: center;
+    max-height: 2403px;
+    gap: 33px;
+  }
+}

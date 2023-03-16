@@ -17,3 +17,11 @@
 .card__button-cart:active {
   background: var(--dark-purpule);
 }
+
+@media screen and (max-width: 925px) {
+  .card__button-cart {
+    width: 114.62px;
+    height: 23.85px;
+    font-size: 12px;
+  }
+}

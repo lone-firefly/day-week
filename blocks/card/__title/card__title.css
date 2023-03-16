@@ -2,4 +2,12 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  margin: 0;
+}
+
+@media screen and (max-width: 925px) {
+  .card__title {
+    font-size: 14px;
+    margin-left: 38px;
+  }
 }

@@ -11,3 +11,23 @@
 .catalog-header__search-string:active {
   border-color: var(--dark-purpule);
 }
+
+@media screen and (max-width: 1100px) {
+  .catalog-header__search-string {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 925px) {
+  .catalog-header__search-string {
+    width: 450px;
+    height: 24px;
+    padding-left: 25px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .catalog-header__search-string {
+    width: 350px;
+  }
+}

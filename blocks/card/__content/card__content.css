@@ -1,0 +1,4 @@
+.card__content {
+  display: grid;
+  align-items: center;
+}

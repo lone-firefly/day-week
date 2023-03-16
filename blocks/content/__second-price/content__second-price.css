@@ -1,5 +1,9 @@
 .content__second-price {
-  font-size: 10px;
+  font-size: 16px;
   font-weight: 400;
-  text-decoration-line: line-through;
+  text-decoration: line-through;
+  margin: 0;
+  width: 42px;
+  height: 26px;
+  margin-top: 10px;
 }

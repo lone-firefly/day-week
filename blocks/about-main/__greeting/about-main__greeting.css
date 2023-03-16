@@ -10,3 +10,7 @@
   margin-top: 57px;
   margin-left: 40px;
 }
+
+.about-main__greeting:hover {
+  background-color: var(--purpule);
+}

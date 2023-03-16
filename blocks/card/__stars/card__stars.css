@@ -2,3 +2,10 @@
   width: 114px;
   height: 30.13px;
 }
+
+@media screen and (max-width: 925px) {
+  .card__stars {
+    width: 75.53px;
+    height: 19.96px;
+  }
+}

@@ -2,3 +2,10 @@
   display: flex;
   gap: 21px;
 }
+
+@media screen and (max-width: 925px) {
+  .card__button-group {
+    gap: 13.77px;
+    margin-left: 38px;
+  }
+}

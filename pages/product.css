@@ -40,12 +40,15 @@
 @import "../blocks/content/__img-blue-note/content__img-blue-note.css";
 @import "../blocks/content/__img-corner/content__img-corner.css";
 @import "../blocks/content/__img-green-note/content__img-green-note.css";
-@import "../blocks/content/__img-heart/content__img-heart.css";
+@import "../blocks/content/__img-heart2/content__img-heart2.css";
 @import "../blocks/content/__img-notebook/content__img-notebook.css";
 @import "../blocks/content/__img-pages/content__img-pages.css";
 @import "../blocks/content/__img-planner/content__img-planner.css";
 @import "../blocks/content/__img-red-note/content__img-red-note.css";
 @import "../blocks/content/__second-price/content__second-price.css";
+@import "../blocks/content/__second-price/_rub/content__second-price_rub.css";
+@import "../blocks/content/__content/content__content.css";
+@import "../blocks/content/__price/content__price.css";
 /* About-product */
 @import "../blocks/about-product/about-product.css";
 @import "../blocks/about-product/__subtitle/about-product__subtitle.css";

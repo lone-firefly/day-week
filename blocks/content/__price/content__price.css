@@ -1,0 +1,5 @@
+.content__price {
+  display: flex;
+  /* align-items: baseline; */
+  /* vertical-align: sub; */
+}
