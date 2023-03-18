@@ -15,3 +15,10 @@
     margin: 0;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .catalog-header__img-arrow {
+    width: 15px;
+    height: 14px;
+  }
+}

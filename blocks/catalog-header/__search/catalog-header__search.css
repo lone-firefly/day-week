@@ -3,7 +3,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1100px) {
+/* @media screen and (max-width: 1100px) {
   .catalog-header__search {
     width: 600px;
   }
@@ -19,4 +19,17 @@
   .catalog-header__search {
     width: 350px;
   }
-}
+} */
+
+/* @media screen and (max-width: 445px) {
+  .catalog-header__search {
+    width: 150px;
+  }
+} */
+
+/* @media screen and (max-width: 335px) {
+  .catalog-header__search {
+    position: relative;
+    left: -10px;
+  }
+} */

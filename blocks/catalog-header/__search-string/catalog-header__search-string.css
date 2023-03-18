@@ -31,3 +31,28 @@
     width: 350px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .catalog-header__search-string {
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .catalog-header__search-string {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .catalog-header__search-string {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .catalog-header__search-string {
+    width: 85px;
+    padding-left: 22px;
+  }
+}
