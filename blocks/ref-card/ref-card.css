@@ -9,9 +9,39 @@
   border-radius: 16px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1220px) {
   .ref-card {
     width: 289px;
     height: 347px;
+  }
+}
+
+@media screen and (max-width: 1005px) {
+  .ref-card {
+    flex-direction: row;
+    width: 688px;
+    height: 175px;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .ref-card {
+    width: 585px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .ref-card {
+    width: 427px;
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .ref-card {
+    width: 240px;
+    height: 270px;
+    flex-direction: column;
   }
 }

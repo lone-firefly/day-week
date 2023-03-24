@@ -4,9 +4,23 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1220px) {
   .refuses__cards {
     gap: 34px;
     justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 1005px) {
+  .refuses__cards {
+    display: grid;
+    gap: 30px;
+    width: fit-content;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .refuses__cards {
+    gap: 20px;
   }
 }

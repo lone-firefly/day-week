@@ -2,3 +2,26 @@
   color: var(--pink);
   margin: 0;
 }
+
+@media screen and (max-width: 1220px) {
+  .refuses__title {
+    width: 80px;
+    height: 23px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1005px) {
+  .refuses__title {
+    width: 59px;
+    height: 23px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .refuses__title {
+    font-size: 12px;
+    width: fit-content;
+    height: fit-content;
+  }
+}

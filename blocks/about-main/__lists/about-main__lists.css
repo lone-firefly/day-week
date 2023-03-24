@@ -5,9 +5,37 @@
   margin-left: 15.93px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1220px) {
   .about-main__lists {
     width: 855px;
     height: 103px;
+  }
+}
+
+@media screen and (max-width: 1005px) {
+  .about-main__lists {
+    width: 688px;
+    height: 118px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .about-main__lists {
+    width: 585px;
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .about-main__lists {
+    width: 427px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .about-main__lists {
+    width: 238px;
+    font-size: 12px;
   }
 }

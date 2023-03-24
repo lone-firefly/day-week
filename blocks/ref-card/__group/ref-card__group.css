@@ -1,9 +1,35 @@
 .ref-card__group {
   display: flex;
   gap: 24px;
-  text-align: center;
+  align-items: center;
   margin-top: 32px;
   width: 166px;
   height: 71px;
   margin-left: 26px;
+}
+
+@media screen and (max-width: 1005px) {
+  .ref-card__group {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .ref-card__group {
+    flex-direction: column;
+    gap: 15px;
+    width: fit-content;
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .ref-card__group {
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 20px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 0;
+  }
 }

@@ -6,8 +6,36 @@
   margin-bottom: 142px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1220px) {
   .refuses {
     margin-bottom: 0;
+    width: 940px;
+  }
+}
+
+@media screen and (max-width: 1005px) {
+  .refuses {
+    width: 688px;
+    height: 636px;
+    gap: 24px;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .refuses {
+    width: 585px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .refuses {
+    width: fit-content;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .refuses {
+    height: 903px;
   }
 }

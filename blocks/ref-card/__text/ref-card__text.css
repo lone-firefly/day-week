@@ -2,12 +2,44 @@
   font-size: 16px;
   font-weight: 400;
   margin: 0;
-  max-width: 290px;
+  width: 290px;
   margin-left: 26px;
 }
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 1220px) {
   .ref-card__text {
     width: 237px;
     height: 199px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1005px) {
+  .ref-card__text {
+    width: 425px;
+    height: fit-content;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .ref-card__text {
+    width: fit-content;
+    margin-left: 0;
+    margin-right: 26px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .ref-card__text {
+    width: 264px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .ref-card__text {
+    font-size: 12px;
+    width: 220px;
+    margin-right: 0;
   }
 }

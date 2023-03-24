@@ -7,17 +7,39 @@
   border-radius: 16px;
   padding-left: 27px;
   justify-content: center;
-  margin-top: 57px;
 }
 
 .about-main__greeting:hover {
   background-color: var(--purpule);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1220px) {
   .about-main__greeting {
     width: 558px;
     height: 175px;
     gap: 10px;
+  }
+}
+
+@media screen and (max-width: 1005px) {
+  .about-main__greeting {
+    gap: 19px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .about-main__greeting {
+    width: 400px;
+    height: 222px;
+    gap: 2px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .about-main__greeting {
+    width: 240px;
+    height: 217px;
+    gap: 3px;
+    padding-left: 10px;
   }
 }

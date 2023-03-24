@@ -5,10 +5,33 @@
   margin-bottom: 19px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1220px) {
   .about-main__title {
     width: 520px;
     height: 45px;
     margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 1005px) {
+  .about-main__title {
+    width: 483px;
+    height: 35px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .about-main__title {
+    width: 354px;
+    height: 83px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .about-main__title {
+    width: 230px;
+    height: 66px;
+    font-size: 24px;
   }
 }

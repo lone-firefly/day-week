@@ -2,3 +2,15 @@
   margin-top: 24px;
   margin-bottom: 70px;
 }
+
+@media screen and (max-width: 1005px) {
+  .about-main__reasons-group {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .about-main__reasons-group {
+    width: fit-content;
+  }
+}
