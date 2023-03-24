@@ -3,3 +3,15 @@
   gap: 38px;
   margin-top: 16px;
 }
+
+@media screen and (max-width: 900px) {
+  .bag-main__group {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .bag-main__group {
+    flex-direction: column;
+  }
+}

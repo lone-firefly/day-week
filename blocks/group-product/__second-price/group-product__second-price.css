@@ -5,3 +5,19 @@
   text-decoration: line-through;
   margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .group-product__second-price {
+    width: 33px;
+    height: 20px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .group-product__second-price {
+    font-size: 12px;
+    width: 28px;
+    height: 20px;
+  }
+}

@@ -1,3 +1,16 @@
 .group-product__num-buttons {
   display: flex;
 }
+
+@media screen and (max-width: 768px) {
+  .group-product__num-buttons {
+    width: 62px;
+    height: 21.62px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .group-product__num-buttons {
+    margin-left: 24px;
+  }
+}

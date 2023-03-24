@@ -3,7 +3,7 @@
   cursor: pointer;
   padding: 0;
   width: 236px;
-  height: 31.72px;
+  height: 32px;
   background-color: var(--pink);
   border-radius: 6px;
   color: var(--white);
@@ -16,4 +16,38 @@
 
 .bag-card__button-bag:active {
   background: var(--dark-purpule);
+}
+
+@media screen and (max-width: 1024px) {
+  .bag-card__button-bag {
+    width: 190px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .bag-card__button-bag {
+    width: 119px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bag-card__button-bag {
+    width: 135px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .bag-card__button-bag {
+    width: 305px;
+    height: 32px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bag-card__button-bag {
+    width: 164px;
+    height: 32px;
+    margin-left: 37.5px;
+  }
 }

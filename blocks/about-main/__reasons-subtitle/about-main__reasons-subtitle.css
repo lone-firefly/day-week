@@ -2,5 +2,10 @@
   color: var(--pink);
   margin: 0;
   margin-bottom: 7px;
-  margin-left: 40px;
+}
+@media screen and (max-width: 1024px) {
+  .about-main__reasons-subtitle {
+    width: 243.96px;
+    height: 23px;
+  }
 }

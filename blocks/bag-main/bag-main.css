@@ -1,3 +1,15 @@
 .bag-main {
   margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 35px;
+  margin-bottom: 300px;
+  /* display: grid; */
+}
+
+@media screen and (max-width: 725px) {
+  .bag-main {
+    margin-bottom: 200px;
+    /* justify-items: center;
+    justify-items: last baseline; */
+  }
 }

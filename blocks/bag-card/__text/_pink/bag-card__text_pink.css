@@ -1,3 +1,9 @@
 .bag-card__text_pink {
   color: var(--pink);
 }
+
+@media screen and (max-width: 768px) {
+  .bag-card__text_pink {
+    font-size: 14px;
+  }
+}

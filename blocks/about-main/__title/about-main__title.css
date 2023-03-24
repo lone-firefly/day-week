@@ -4,3 +4,11 @@
   margin: 0;
   margin-bottom: 19px;
 }
+
+@media screen and (max-width: 1024px) {
+  .about-main__title {
+    width: 520px;
+    height: 45px;
+    margin-bottom: 0;
+  }
+}

@@ -3,4 +3,11 @@
   font-weight: 400;
   margin: 0;
   max-width: 290px;
+  margin-left: 26px;
+}
+@media screen and (max-width: 1024px) {
+  .ref-card__text {
+    width: 237px;
+    height: 199px;
+  }
 }

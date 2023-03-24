@@ -6,3 +6,11 @@
   margin: 0;
   margin-top: 5px;
 }
+
+@media screen and (max-width: 768px) {
+  .bag-main__product-num {
+    width: 55px;
+    height: 21px;
+    font-size: 14px;
+  }
+}

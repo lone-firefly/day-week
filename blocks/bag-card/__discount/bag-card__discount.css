@@ -5,3 +5,31 @@
   justify-content: space-between;
   margin-top: 7px;
 }
+
+@media screen and (max-width: 1024px) {
+  .bag-card__discount {
+    width: 175px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .bag-card__discount {
+    width: 119px;
+    height: 22px;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .bag-card__discount {
+    width: 304px;
+    height: 22px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bag-card__discount {
+    width: 177px;
+    height: 22px;
+  }
+}

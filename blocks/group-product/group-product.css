@@ -5,7 +5,33 @@
   border-radius: 16px;
   display: flex;
   align-items: center;
-  padding-left: 26px;
-  padding-right: 26px;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .group-product {
+    height: 165px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .group-product {
+    width: 481px;
+    height: 126px;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .group-product {
+    width: 400px;
+    height: 126px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .group-product {
+    width: 240px;
+    height: 115px;
+    flex-wrap: wrap;
+  }
 }

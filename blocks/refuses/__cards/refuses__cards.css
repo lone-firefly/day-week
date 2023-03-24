@@ -3,3 +3,10 @@
   gap: 48px;
   justify-content: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .refuses__cards {
+    gap: 34px;
+    justify-content: flex-start;
+  }
+}

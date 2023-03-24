@@ -5,3 +5,10 @@
   margin: 0;
   margin-top: 19px;
 }
+
+/* @media screen and (max-width: 1024px) {
+  .ref-card__text_brown {
+    width: 237px;
+    height: 199px;
+  }
+} */

@@ -5,3 +5,11 @@
   width: 103px;
   height: 35px;
 }
+
+@media screen and (max-width: 768px) {
+  .bag-main__bag-title {
+    width: 86px;
+    height: 35px;
+    font-size: 20px;
+  }
+}

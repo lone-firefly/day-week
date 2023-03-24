@@ -3,6 +3,11 @@
   gap: 30px;
   width: 1152px;
   height: 451px;
-  margin-left: 40px;
   margin-bottom: 142px;
+}
+
+@media screen and (max-width: 1024px) {
+  .refuses {
+    margin-bottom: 0;
+  }
 }

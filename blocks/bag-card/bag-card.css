@@ -3,3 +3,16 @@
   justify-items: center;
   gap: 25px;
 }
+
+@media screen and (max-width: 725px) {
+  .bag-card {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bag-card {
+    justify-items: normal;
+    width: 239px;
+  }
+}

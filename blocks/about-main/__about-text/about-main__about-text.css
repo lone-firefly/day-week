@@ -1,7 +1,14 @@
 .about-main__about-text {
   margin: 0;
   margin-top: 47px;
-  margin-left: 40px;
-  max-width: 1197px;
-  max-height: 89px;
+  width: 1197px;
+  height: 89px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  .about-main__about-text {
+    width: 940px;
+    height: 136px;
+  }
 }

@@ -4,3 +4,18 @@
   height: 21px;
   margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .group-product__title {
+    width: 198px;
+    height: 25px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .group-product__title {
+    width: 136px;
+    height: 39px;
+  }
+}

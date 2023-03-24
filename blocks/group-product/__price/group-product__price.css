@@ -1,4 +1,25 @@
 .group-product__price {
   display: flex;
   gap: 8px;
+  margin-right: 26px;
+}
+
+@media screen and (max-width: 950px) {
+  .group-product__price {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .group-product__price {
+    margin-right: 17px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .group-product__price {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px;
+  }
 }

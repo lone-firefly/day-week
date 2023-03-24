@@ -2,3 +2,16 @@
   display: grid;
   gap: 4px;
 }
+
+@media screen and (max-width: 725px) {
+  .group-product__group-text {
+    gap: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .group-product__group-text {
+    margin-top: 16px;
+    margin-right: 10px;
+  }
+}

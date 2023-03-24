@@ -3,3 +3,19 @@
   font-weight: 700;
   margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .group-product__first-price {
+    width: 51px;
+    height: 26px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .group-product__first-price {
+    font-size: 18px;
+    width: 45px;
+    height: 26px;
+  }
+}
