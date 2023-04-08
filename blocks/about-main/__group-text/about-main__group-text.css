@@ -1,0 +1,13 @@
+.about-main__group-text {
+  display: grid;
+  margin: 0;
+  margin-top: 47px;
+  width: fit-content;
+  height: fit-content;
+}
+
+@media screen and (max-width: 1005px) {
+  .about-main__about-text {
+    margin-top: 40px;
+  }
+}

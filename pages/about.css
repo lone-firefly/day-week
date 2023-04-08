@@ -23,6 +23,7 @@
 @import "../blocks/about-main/__title/about-main__title.css";
 @import "../blocks/about-main/__about-text/about-main__about-text.css";
 @import "../blocks/about-main/__lists/about-main__lists.css";
+@import "../blocks/about-main/__group-text/about-main__group-text.css";
 /* About-list */
 @import "../blocks/about-list/about-list.css";
 /* Refuses */

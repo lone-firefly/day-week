@@ -1,13 +1,26 @@
 .life__paragraph {
   margin: 0;
-  max-height: 354px;
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 16px;
+  width: 490px;
+  height: fit-content;
   color: var(--dark-purpule);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .life__paragraph {
-    font-size: 18px;
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .life__paragraph {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .life__paragraph {
+    width: 300px;
   }
 }

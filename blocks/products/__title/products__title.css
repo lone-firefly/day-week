@@ -1,8 +1,15 @@
 .products__title {
-  margin: 47px 0 41px 0;
+  margin: 0;
   font-style: italic;
-  font-size: 50px;
+  font-size: 25px;
+  width: fit-content;
   font-weight: normal;
   color: var(--black);
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .products__title {
+    font-size: 20px;
+  }
 }

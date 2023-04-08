@@ -1,12 +1,27 @@
 .daily-planer__title {
   margin: 0;
-  font-size: 35px;
-  line-height: 47px;
+  font-size: 25px;
+  width: 490px;
+  height: fit-content;
   color: var(--white);
+  margin-bottom: 35px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .daily-planer__title {
     font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .daily-planer__title {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .daily-planer__title {
+    width: 300px;
   }
 }

@@ -1,6 +1,11 @@
 .header__lists {
-  min-width: 390px;
-  max-width: 390px;
+  width: fit-content;
   display: flex;
-  justify-content: space-between;
+  gap: 60px;
+}
+
+@media screen and (max-width: 400px) {
+  .header__lists {
+    gap: 40px;
+  }
 }

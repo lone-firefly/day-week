@@ -1,33 +1,27 @@
 .about-main__about-text {
   margin: 0;
-  margin-top: 47px;
   width: 1197px;
-  height: 89px;
+  height: fit-content;
   font-size: 16px;
 }
 
 @media screen and (max-width: 1220px) {
   .about-main__about-text {
     width: 940px;
-    height: 136px;
   }
 }
 
 @media screen and (max-width: 1005px) {
   .about-main__about-text {
     width: 688px;
-    height: 120px;
     font-size: 14px;
-    margin-top: 40px;
   }
 }
 
 @media screen and (max-width: 785px) {
   .about-main__about-text {
     width: 585px;
-    height: fit-content;
     font-size: 14px;
-    margin-top: 40px;
   }
 }
 
@@ -41,6 +35,5 @@
   .about-main__about-text {
     font-size: 12px;
     width: 238px;
-    height: fit-content;
   }
 }

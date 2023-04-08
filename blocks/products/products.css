@@ -1,0 +1,7 @@
+.products {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  display: grid;
+  gap: 105px;
+  justify-items: center;
+}

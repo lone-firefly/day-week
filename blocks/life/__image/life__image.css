@@ -1,14 +1,14 @@
 .life__image {
-  width: 590px;
-  height: 590px;
+  width: 500px;
+  height: 500px;
   object-fit: cover;
   filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
   border-radius: 16px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
   .life__image {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
   }
 }

@@ -1,9 +1,3 @@
 .nav {
   display: flex;
 }
-
-@media screen and (max-width: 480px) {
-  .nav {
-    display: none;
-  }
-}

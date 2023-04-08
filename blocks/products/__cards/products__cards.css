@@ -6,6 +6,12 @@
 
 @media screen and (max-width: 1236px) {
   .products__cards {
+    gap: 100px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .products__cards {
     display: grid;
     gap: 50px;
   }

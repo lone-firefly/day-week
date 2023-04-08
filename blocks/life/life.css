@@ -1,12 +1,14 @@
 .life {
   padding: 83px 40px;
   display: flex;
-  gap: 20px;
+  gap: 70px;
   justify-content: center;
 }
 
 @media screen and (max-width: 1236px) {
   .life {
     display: grid;
+    text-align: center;
+    justify-items: center;
   }
 }

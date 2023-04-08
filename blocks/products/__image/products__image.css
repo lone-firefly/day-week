@@ -1,15 +1,12 @@
 .products__image {
-  width: 486px;
-  height: 416px;
+  width: 350px;
+  height: 299.59px;
   object-fit: fill;
 }
 
-/* @media screen and (max-width: 1236px) {
-  .products__image {
-    width: 350px;
-    height: 370px;
-  }
-} */
+.products__image:hover {
+  opacity: 0.5;
+}
 
 @media screen and (max-width: 1236px) {
   .products__image {
@@ -17,16 +14,9 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .products__image {
-    width: 207px;
-    height: 224px;
+    width: 250px;
+    height: 213.99px;
   }
 }
-
-/* .life__image:hover {
-
-}
-.life__image:after {
-
-}  */

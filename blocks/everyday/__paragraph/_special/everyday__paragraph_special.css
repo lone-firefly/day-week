@@ -1,0 +1,13 @@
+.everyday__paragraph_special {
+  font-size: 25px;
+  font-style: italic;
+  margin-top: 50px;
+  color: var(--brown);
+}
+
+@media screen and (max-width: 768px) {
+  .everyday__paragraph_special {
+    font-size: 20px;
+    text-align: center;
+  }
+}

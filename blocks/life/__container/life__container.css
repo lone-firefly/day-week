@@ -1,5 +1,14 @@
 .life__container {
-  max-width: 590px;
+  width: 490px;
+  height: fit-content;
+  align-self: center;
   display: grid;
-  gap: 48px;
+  justify-items: center;
+  gap: 0;
+}
+
+@media screen and (max-width: 560px) {
+  .life__container {
+    width: fit-content;
+  }
 }

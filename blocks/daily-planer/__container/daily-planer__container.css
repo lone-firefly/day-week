@@ -1,12 +1,20 @@
 .daily-planer__container {
-  max-width: 590px;
+  width: 490px;
+  height: fit-content;
   order: -1;
   display: grid;
-  gap: 41px;
+  gap: 0;
+  align-self: center;
 }
 
 @media screen and (max-width: 1236px) {
   .daily-planer__container {
     order: 0;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .daily-planer__container {
+    width: fit-content;
   }
 }

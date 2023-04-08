@@ -30,6 +30,7 @@
 @import "../blocks/everyday/__container/everyday__container.css";
 @import "../blocks/everyday/__image/everyday__image.css";
 @import "../blocks/everyday/__paragraph/everyday__paragraph.css";
+@import "../blocks/everyday/__paragraph/_special/everyday__paragraph_special.css";
 @import "../blocks/everyday/__title/everyday__title.css";
 /* Life */
 @import "../blocks/life/life.css";

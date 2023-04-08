@@ -2,12 +2,14 @@
   padding: 83px 40px;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 70px;
   background: var(--brown);
 }
 
 @media screen and (max-width: 1236px) {
   .daily-planer {
     display: grid;
+    text-align: center;
+    justify-items: center;
   }
 }

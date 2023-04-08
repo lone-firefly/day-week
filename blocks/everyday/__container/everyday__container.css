@@ -1,6 +1,13 @@
 .everyday__container {
-  max-width: 590px;
+  width: 490px;
+  height: fit-content;
   display: grid;
-  gap: 62px;
-  /* justify-content: center; */
+  gap: 0;
+  align-self: center;
+}
+
+@media screen and (max-width: 560px) {
+  .everyday__container {
+    width: fit-content;
+  }
 }
