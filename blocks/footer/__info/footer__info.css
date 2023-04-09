@@ -1,0 +1,24 @@
+.footer__info {
+  display: grid;
+  height: 157px;
+  margin-top: 58px;
+  margin-left: 88px;
+}
+
+@media screen and (max-width: 1070px) {
+  .footer__info {
+    margin-left: 67px;
+  }
+}
+
+@media screen and (max-width: 593px) {
+  .footer__info {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 398px) {
+  .footer__info {
+    justify-items: center;
+  }
+}

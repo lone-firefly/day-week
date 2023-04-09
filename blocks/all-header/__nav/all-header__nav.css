@@ -1,0 +1,7 @@
+.all-header__nav {
+  background-image: url("../../../images/header/nav.png");
+  background-size: cover;
+  height: 63px;
+  display: flex;
+  align-items: center;
+}

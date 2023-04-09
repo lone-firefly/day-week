@@ -3,10 +3,13 @@
   flex-direction: column;
   width: 1047px;
   height: 175px;
+  background-color: var(--white);
   box-shadow: 0px 4px 20px 3px rgba(0, 0, 0, 0.25);
   border-radius: 16px;
+  box-sizing: border-box;
   padding-left: 27px;
   justify-content: center;
+  align-self: center;
 }
 
 .about-main__greeting:hover {

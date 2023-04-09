@@ -13,6 +13,20 @@
 @import "../blocks/catalog-header/__search/catalog-header__search.css";
 @import "../blocks/catalog-header/__search-string/catalog-header__search-string.css";
 @import "../blocks/catalog-header/__text/catalog-header__text.css";
+
+@import "../blocks/header/__link/header__link.css";
+@import "../blocks/header/__lists/header__lists.css";
+@import "../blocks/header/__nav/header__nav.css";
+
+@import "../blocks/link/link.css";
+@import "../blocks/lists/lists.css";
+@import "../blocks/list/list.css";
+
+/* All header */
+@import "../blocks/all-header/__link/all-header__link.css";
+@import "../blocks/all-header/__lists/all-header__lists.css";
+@import "../blocks/all-header/__nav/all-header__nav.css";
+@import "../blocks/all-header/all-header.css";
 /* Main */
 @import "../blocks/about-main/about-main.css";
 @import "../blocks/about-main/__greeting/about-main__greeting.css";
@@ -24,6 +38,7 @@
 @import "../blocks/about-main/__about-text/about-main__about-text.css";
 @import "../blocks/about-main/__lists/about-main__lists.css";
 @import "../blocks/about-main/__group-text/about-main__group-text.css";
+@import "../blocks/about-main/__wrap/about-main__wrap.css";
 /* About-list */
 @import "../blocks/about-list/about-list.css";
 /* Refuses */
@@ -38,7 +53,26 @@
 @import "../blocks/ref-card/__img-red-cat/ref-card__img-red-cat.css";
 @import "../blocks/ref-card/__text/ref-card__text.css";
 @import "../blocks/ref-card/__text/_brown/ref-card__text_brown.css";
+/* Foot text */
+@import "../blocks/foot-text/foot-text.css";
 /* Footer */
-@import "../blocks/footer/footer.css";
-@import "../blocks/footer/__text/footer__text.css";
 @import "../blocks/footer/__about/footer__about.css";
+@import "../blocks/footer/__author/footer__author.css";
+@import "../blocks/footer/__data-group/footer__data-group.css";
+@import "../blocks/footer/__email-image/footer__email-image.css";
+@import "../blocks/footer/__email/footer__email.css";
+@import "../blocks/footer/__ic-text/footer__ic-text.css";
+@import "../blocks/footer/__icons/footer__icons.css";
+@import "../blocks/footer/__img/footer__img.css";
+@import "../blocks/footer/__inf-text/footer__inf-text.css";
+@import "../blocks/footer/__info/footer__info.css";
+@import "../blocks/footer/__links/footer__links.css";
+@import "../blocks/footer/__locate-image/footer__locate-image.css";
+@import "../blocks/footer/__locate/footer__locate.css";
+@import "../blocks/footer/__text/footer__text.css";
+@import "../blocks/footer/__logo-text/footer__logo-text.css";
+@import "../blocks/footer/__phone-image/footer__phone-image.css";
+@import "../blocks/footer/__phone/footer__phone.css";
+@import "../blocks/footer/__title/footer__title.css";
+@import "../blocks/footer/__inf-title/footer__inf-title.css";
+@import "../blocks/footer/footer.css";

@@ -1,0 +1,5 @@
+.footer__data-group {
+  display: grid;
+  gap: 17px;
+  height: 95px;
+}

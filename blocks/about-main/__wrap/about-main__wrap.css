@@ -1,0 +1,28 @@
+.about-main__wrap {
+  background-image: url("/images/about/bg-books.png");
+  background-size: cover;
+  border-radius: 16px;
+  max-width: 1300px;
+  width: 95%;
+  height: 195px;
+  display: flex;
+}
+
+@media screen and (max-width: 1220px) {
+  .about-main__wrap {
+    background-image: url("/images/about/1220books.png");
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .about-main__wrap {
+    height: 242px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .about-main__wrap {
+    width: 240px;
+  }
+}

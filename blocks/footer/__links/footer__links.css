@@ -1,0 +1,19 @@
+.footer__links {
+  display: grid;
+  height: 124px;
+  margin-top: 58px;
+  margin-left: 117px;
+}
+
+@media screen and (max-width: 1220px) {
+  .footer__links {
+    margin-left: 42px;
+  }
+}
+
+@media screen and (max-width: 398px) {
+  .footer__links {
+    margin-left: 0;
+    justify-items: center;
+  }
+}
