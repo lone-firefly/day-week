@@ -1,5 +1,5 @@
 .about-main__wrap {
-  background-image: url("/images/about/bg-books.png");
+  background-image: url("../../../images/about/bg-books.png");
   background-size: cover;
   border-radius: 16px;
   max-width: 1300px;
@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 1220px) {
   .about-main__wrap {
-    background-image: url("/images/about/1220books.png");
+    background-image: url("../../../images/about/1220books.png");
     background-size: cover;
   }
 }
