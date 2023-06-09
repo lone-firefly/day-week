@@ -1,4 +1,13 @@
 .content__desc-title {
   font-size: 16px;
   font-weight: 700;
+  height: 22px;
+  margin: 0;
+  margin-bottom: 6px;
+}
+
+@media screen and (max-width: 925px) {
+  .content__desc-title {
+    font-size: 14px;
+  }
 }

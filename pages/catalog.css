@@ -19,8 +19,10 @@
 @import "../blocks/catalog-header/__search/catalog-header__search.css";
 @import "../blocks/catalog-header/__search-string/catalog-header__search-string.css";
 @import "../blocks/catalog-header/__text/catalog-header__text.css";
+@import "../blocks/catalog-header/__menu/catalog-header__menu.css";
 
 @import "../blocks/header/__link/header__link.css";
+@import "../blocks/header/__link/_active/header__link_active.css";
 @import "../blocks/header/__lists/header__lists.css";
 @import "../blocks/header/__nav/header__nav.css";
 
@@ -29,8 +31,13 @@
 @import "../blocks/list/list.css";
 /* Main */
 @import "../blocks/catalog-main/catalog-main.css";
+@import "../blocks/catalog-main/__group/catalog-main__group.css";
+@import "../blocks/catalog-main/__text/catalog-main__text.css";
+@import "../blocks/catalog-main/__wrap/catalog-main__wrap.css";
+@import "../blocks/catalog-main/__img/catalog-main__img.css";
 /* Cards */
 @import "../blocks/cards/cards.css";
+@import "../blocks/cards/__link/cards__link.css";
 @import "../blocks/card/card.css";
 @import "../blocks/card/__about-group/card__about-group.css";
 @import "../blocks/card/__button-cart/card__button-cart.css";
@@ -46,6 +53,7 @@
 @import "../blocks/card/__title/card__title.css";
 /* Foot text */
 @import "../blocks/foot-text/foot-text.css";
+@import "../blocks/foot-text/_link/foot-text_link.css";
 /* Footer */
 @import "../blocks/footer/__about/footer__about.css";
 @import "../blocks/footer/__author/footer__author.css";

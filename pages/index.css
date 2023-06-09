@@ -12,6 +12,7 @@
 @import "../blocks/header/__subtitle/header__subtitle.css";
 @import "../blocks/header/__lists/header__lists.css";
 @import "../blocks/header/__link/header__link.css";
+@import "../blocks/header/__link/_active/header__link_active.css";
 @import "../blocks/header/__container/header__container.css";
 @import "../blocks/header/__container-descripton/header__container-descripton.css";
 @import "../blocks/header/__button/header__button.css";
@@ -49,6 +50,7 @@
 @import "../blocks/products/__cards/products__cards.css";
 /* Foot text */
 @import "../blocks/foot-text/foot-text.css";
+@import "../blocks/foot-text/_link/foot-text_link.css";
 /* Footer */
 @import "../blocks/footer/__about/footer__about.css";
 @import "../blocks/footer/__author/footer__author.css";

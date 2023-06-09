@@ -1,7 +1,10 @@
 .bag-main__group {
   display: flex;
   gap: 38px;
-  margin-top: 16px;
+  padding-top: 16px;
+  margin: auto;
+  justify-content: space-between;
+  max-width: 1400px;
 }
 
 @media screen and (max-width: 900px) {
@@ -13,5 +16,12 @@
 @media screen and (max-width: 725px) {
   .bag-main__group {
     flex-direction: column;
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bag-main__group {
+    max-width: 240px;
   }
 }

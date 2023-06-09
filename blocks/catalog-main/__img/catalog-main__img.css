@@ -1,0 +1,19 @@
+.catalog-main__img {
+  background-image: url("../../../images/catalog/adv-books.png");
+  background-size: cover;
+  border-radius: 16px 0 0 16px;
+  width: 669px;
+  height: 189px;
+}
+
+@media screen and (max-width: 925px) {
+  .catalog-main__img {
+    width: 420px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .catalog-main__img {
+    width: 50%;
+  }
+}

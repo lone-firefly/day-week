@@ -1,0 +1,7 @@
+.foot-text_link {
+  cursor: pointer;
+}
+
+.foot-text_link:hover {
+  text-decoration: underline;
+}

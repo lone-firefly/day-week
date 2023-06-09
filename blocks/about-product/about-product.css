@@ -6,3 +6,24 @@
   height: 72px;
   margin-top: 25px;
 }
+
+@media screen and (max-width: 1300px) {
+  .about-product {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .about-product {
+    display: grid;
+    gap: 15px;
+    width: 452px;
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .about-product {
+    width: 255.28px;
+  }
+}

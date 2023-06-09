@@ -1,3 +1,29 @@
 .content__color-descript {
   margin-right: 40px;
+  display: grid;
+  gap: 62px;
+  height: fit-content;
+}
+
+@media screen and (max-width: 1300px) {
+  .content__color-descript {
+    gap: 57px;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .content__color-descript {
+    display: flex;
+    width: 452px;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .content__color-descript {
+    display: grid;
+    width: fit-content;
+    justify-self: center;
+  }
 }

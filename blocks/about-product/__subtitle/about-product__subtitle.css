@@ -4,3 +4,9 @@
   color: var(--pink);
   margin: 0;
 }
+
+@media screen and (max-width: 790px) {
+  .about-product__subtitle {
+    font-size: 14px;
+  }
+}

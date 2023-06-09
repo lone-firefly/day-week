@@ -1,3 +1,18 @@
 .content__img-notebook {
   margin-right: 40px;
+  width: 408px;
+  height: 458px;
+}
+
+@media screen and (max-width: 1300px) {
+  .content__img-notebook {
+    width: 314px;
+    height: 352px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .content__img-notebook {
+    margin: 0;
+  }
 }

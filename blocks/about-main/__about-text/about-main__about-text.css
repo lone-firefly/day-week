@@ -31,9 +31,9 @@
   }
 }
 
-@media screen and (max-width: 675px) {
+@media screen and (max-width: 510px) {
   .about-main__about-text {
     font-size: 12px;
-    width: 238px;
+    width: 240px;
   }
 }

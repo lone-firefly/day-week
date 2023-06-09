@@ -1,4 +1,18 @@
 .bag-main__group-title {
   display: flex;
   gap: 14px;
+  max-width: 1400px;
+  margin: auto;
+}
+
+@media screen and (max-width: 725px) {
+  .bag-main__group-title {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bag-main__group-title {
+    max-width: 240px;
+  }
 }

@@ -2,4 +2,19 @@
   font-size: 16px;
   font-weight: 500;
   color: var(--pink);
+  height: 23px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 925px) {
+  .content__desc-subtitle {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .content__desc-subtitle {
+    align-items: center;
+  }
 }

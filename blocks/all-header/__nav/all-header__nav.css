@@ -1,7 +1,8 @@
 .all-header__nav {
   background-image: url("../../../images/header/nav.png");
   background-size: cover;
-  height: 63px;
+  height: 64px;
   display: flex;
   align-items: center;
+  padding-top: 20px;
 }

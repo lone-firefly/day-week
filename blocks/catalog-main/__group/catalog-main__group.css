@@ -1,0 +1,20 @@
+.catalog-main__group {
+  width: 213px;
+  height: 189px;
+  border-radius: 0 16px 16px 0;
+  background-color: var(--purpule);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  opacity: 0.85;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  box-sizing: border-box;
+  padding: 53px 38px;
+}
+
+@media screen and (max-width: 925px) {
+  .catalog-main__group {
+    width: 172.64px;
+  }
+}

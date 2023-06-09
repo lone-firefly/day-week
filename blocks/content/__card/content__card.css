@@ -7,13 +7,34 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* flex-wrap: wrap;
-  justify-content: center; */
-  /* display: grid;
-  align-items: center;
-  justify-items: center; */
-  /* grid-template-columns: [start] 110px [line2] 117px [line3] 40px [end];
-  grid-template-rows: [row1-start] 64px [row1-end] 49px [last]; */
-  /* grid-template-rows: 50px 150px;
-  grid-auto-rows: 20px; */
+}
+
+@media screen and (max-width: 1300px) {
+  .content__card {
+    order: -1;
+  }
+}
+
+@media screen and (max-width: 925px) {
+  .content__card {
+    width: 219px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 25px 20px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .content__card {
+    justify-self: center;
+    width: 452px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .content__card {
+    width: 314px;
+  }
 }

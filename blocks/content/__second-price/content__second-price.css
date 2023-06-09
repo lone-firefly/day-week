@@ -7,3 +7,9 @@
   height: 26px;
   margin-top: 10px;
 }
+
+@media screen and (max-width: 925px) {
+  .content__second-price {
+    font-size: 14px;
+  }
+}

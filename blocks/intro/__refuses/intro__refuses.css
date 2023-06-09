@@ -3,4 +3,11 @@
   font-size: 16px;
   font-weight: 500;
   text-decoration: underline;
+  margin: 0;
+}
+
+@media screen and (max-width: 925px) {
+  .intro__refuses {
+    font-size: 14px;
+  }
 }

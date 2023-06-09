@@ -12,10 +12,6 @@
   align-self: center;
 }
 
-.about-main__greeting:hover {
-  background-color: var(--purpule);
-}
-
 @media screen and (max-width: 1220px) {
   .about-main__greeting {
     width: 558px;

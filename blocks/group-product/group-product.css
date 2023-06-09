@@ -8,6 +8,11 @@
   justify-content: space-between;
 }
 
+/* @media screen and (max-width: 1285px) {
+  .group-product {
+    max-width: 750px;
+  }
+} */
 @media screen and (max-width: 1024px) {
   .group-product {
     height: 165px;

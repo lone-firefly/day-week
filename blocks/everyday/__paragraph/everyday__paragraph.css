@@ -4,6 +4,7 @@
   width: 490px;
   height: fit-content;
   color: var(--white);
+  text-align: justify;
 }
 
 @media screen and (max-width: 768px) {

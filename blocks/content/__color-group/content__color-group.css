@@ -1,0 +1,20 @@
+.content__color-group {
+  display: grid;
+  gap: 19px;
+  width: 291px;
+  height: 127px;
+}
+
+@media screen and (max-width: 925px) {
+  .content__color-group {
+    width: fit-content;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .content__color-group {
+    height: fit-content;
+    align-items: center;
+    text-align: center;
+  }
+}

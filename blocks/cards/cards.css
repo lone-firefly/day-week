@@ -1,7 +1,6 @@
 .cards {
   max-width: 882px;
   max-height: 1757px;
-  margin-top: 102px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -21,11 +20,5 @@
     align-items: center;
     max-height: 2403px;
     gap: 33px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cards {
-    margin-top: 80px;
   }
 }

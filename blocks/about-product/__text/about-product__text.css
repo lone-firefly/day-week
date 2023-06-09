@@ -3,3 +3,10 @@
   font-weight: 400;
   margin: 0;
 }
+
+@media screen and (max-width: 790px) {
+  .about-product__text {
+    font-size: 14px;
+    text-align: justify;
+  }
+}

@@ -14,20 +14,24 @@
         <nav class="nav header__nav">
           <ul class="lists header__lists">
             <li class="list">
-              <a class="link header__link" href="index.html">Главная</a>
+              <a
+                class="link header__link header__link_active"
+                href="./index.html"
+                >Главная</a
+              >
             </li>
             <li class="list">
-              <a class="link header__link" href="catalog.html">Каталог</a>
+              <a class="link header__link" href="./catalog.html">Каталог</a>
             </li>
             <li class="list">
-              <a class="link header__link" href="about.html">О нас</a>
+              <a class="link header__link" href="./about.html">О нас</a>
             </li>
           </ul>
         </nav>
         <div class="header__container-descripton">
           <h1 class="header__title">DayWeek</h1>
           <p class="header__subtitle">прорыв в мире ежедневников</p>
-          <a class="link header__button" href="catalog.html">Купить</a>
+          <a class="link header__button" href="./catalog.html">Купить</a>
         </div>
       </div>
     </header>
@@ -72,15 +76,14 @@
             DayWeek&nbsp;&mdash; ежедневник отражающий вашу индивидуальность.
           </p>
           <p class="daily-planer__paragraph">
-            Устанавливая приложение, вы&nbsp;получаете возможность настроить
-            интерфейс в&nbsp;своём стиле. А&nbsp;если нет времени и&nbsp;желания
-            что-то менять&nbsp;&mdash; ничего страшного, по-умолчанию уже стоит
-            удобная тема.
+            Покупая наш ежедневник, вы&nbsp;можете выбрать любое оформление,
+            дизайн и наполнение по своему вкусу. А&nbsp;если нет времени
+            или&nbsp;желания что-то придумывать&nbsp;&mdash; ничего страшного,
+            вы можете посмотреть большую коллекцию уже готовых решений.
           </p>
           <p class="daily-planer__paragraph">
-            Теперь всё самое важное всегда на&nbsp;виду&nbsp;&mdash; добавьте
-            виджет на&nbsp;ваше устройство и&nbsp;DayWeek напомнит вам
-            о&nbsp;важных делах!
+            Теперь всё самое важное всегда на&nbsp;виду, ведь DayWeek напомнит
+            вам о&nbsp;важных делах!
           </p>
         </div>
       </section>
@@ -96,11 +99,10 @@
             DayWeek - ежедневник который всегда рядом.
           </p>
           <p class="everyday__paragraph">
-            Теперь забыть ежедневник дома не получится. DayWeek доступен на всех
-            платформах. Записывайте нателефоне, редактируйте накомпьютере,
-            просматривайте на умных часах.
+            Теперь можно забыть о неудобствах. Вы можете сами выбрать размер
+            вашего блокнота! В нашем магазине представлена широкая линейка
+            размеров. DayWeek доступен даже в размерах А10 и А1!
           </p>
-
           <p class="everyday__paragraph everyday__paragraph_special">
             DayWeek больше чем просто блокнот
           </p>
@@ -109,14 +111,14 @@
       <section class="products" id="products">
         <h2 class="products__title">Выбери свой Dayweek!</h2>
         <div class="products__cards">
-          <a class="link" href="product.html">
+          <a class="link" href="./product.html">
             <img
               class="products__image"
               src="./images/product/green-dayweek.png"
               alt="Зелёный ежедневник"
             />
           </a>
-          <a class="link" href="product.html">
+          <a class="link" href="./product.html">
             <img
               class="products__image"
               src="./images/product/red-dayweek.png"
@@ -155,28 +157,43 @@
               src="./images/footer/img-locate.png"
               alt="Логотип местоположения"
             />
-            <p class="foot-text footer__ic-text">Оршанская 3, Россия, Москва</p>
+            <p class="foot-text footer__ic-text">Оршанская 3, Москва, Россия</p>
+            <p class="foot-text footer__ic-text"></p>
           </div>
         </div>
       </div>
       <div class="footer__info">
         <p class="footer__inf-title">Информация</p>
-        <p class="foot-text footer__inf-text">Главная</p>
-        <p class="foot-text footer__inf-text">Каталог</p>
-        <p class="foot-text footer__inf-text">Корзина</p>
-        <p class="foot-text footer__inf-text">О нас</p>
+        <a
+          class="foot-text foot-text_link footer__inf-text"
+          href="./catalog.html"
+          >Каталог</a
+        >
+        <a class="foot-text foot-text_link footer__inf-text" href="./index.html"
+          >Главная</a
+        >
+        <a class="foot-text foot-text_link footer__inf-text" href="./bag.html"
+          >Корзина</a
+        >
+        <a class="foot-text foot-text_link footer__inf-text" href="./about.html"
+          >О нас</a
+        >
       </div>
       <div class="footer__links">
         <p class="footer__inf-title">Полезные ссылки</p>
-        <p class="foot-text footer__inf-text">Новая коллекция</p>
-        <p class="foot-text footer__inf-text">Последние новости</p>
-        <p class="foot-text footer__inf-text">Вакансии</p>
+        <p class="foot-text foot-text_link footer__inf-text">Новая коллекция</p>
+        <p class="foot-text foot-text_link footer__inf-text">
+          Последние новости
+        </p>
+        <p class="foot-text foot-text_link footer__inf-text">Вакансии</p>
       </div>
       <div class="footer__author">
         <p class="footer__inf-title">Автор</p>
         <p class="foot-text footer__inf-text">Павлова Майя</p>
         <p class="foot-text footer__inf-text">М3О-233Б-21</p>
-        <p class="foot-text footer__inf-text">Lone Firefly</p>
+
+        <p class="foot-text footer__inf-text">Lone Firefly, 2022</p>
+        <p class="foot-text footer__inf-text">© DayWeek</p>
         <div class="footer__icons">
           <img
             class="footer__img"

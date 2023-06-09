@@ -32,7 +32,7 @@
   }
 }
 
-@media screen and (max-width: 555px) {
+@media screen and (max-width: 600px) {
   .catalog-header__search-string {
     width: 220px;
   }

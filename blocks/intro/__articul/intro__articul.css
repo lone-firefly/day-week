@@ -2,4 +2,11 @@
   color: var(--brown);
   font-size: 16px;
   font-weight: 500;
+  margin: 0;
+}
+
+@media screen and (max-width: 925px) {
+  .intro__articul {
+    font-size: 14px;
+  }
 }

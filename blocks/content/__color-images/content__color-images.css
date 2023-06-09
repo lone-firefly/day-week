@@ -1,4 +1,30 @@
 .content__color-images {
   display: flex;
   gap: 16px;
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+}
+
+@media screen and (max-width: 925px) {
+  .content__color-images {
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .content__color-images {
+    display: grid;
+    height: 195px;
+    gap: 2px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .content__color-images {
+    display: flex;
+    height: fit-content;
+    width: 255px;
+    justify-content: space-evenly;
+  }
 }

@@ -1,0 +1,18 @@
+.content__gr-img {
+  display: flex;
+  gap: 21px;
+  height: fit-content;
+}
+
+@media screen and (max-width: 790px) {
+  .content__gr-img {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .content__gr-img {
+    justify-content: center;
+    width: fit-content;
+  }
+}

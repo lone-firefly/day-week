@@ -18,3 +18,23 @@
 .content__button-bag:active {
   background: var(--dark-purpule);
 }
+
+@media screen and (max-width: 925px) {
+  .content__button-bag {
+    width: 146px;
+    height: 32px;
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .content__button-bag {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .content__button-bag {
+    width: 146px;
+  }
+}

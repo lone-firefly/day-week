@@ -2,4 +2,31 @@
   font-size: 24px;
   font-weight: 700;
   margin: 0;
+  display: flex;
+  width: 1197px;
+}
+
+@media screen and (max-width: 1300px) {
+  .product-main__title {
+    width: 758px;
+  }
+}
+
+@media screen and (max-width: 925px) {
+  .product-main__title {
+    width: 707.09px;
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .product-main__title {
+    width: 452px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .product-main__title {
+    width: 314px;
+  }
 }

@@ -2,11 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   /* padding-left: 26px;
   padding-right: 26px; */
   gap: 0;
   width: 306px;
-  height: 154px;
+  height: 197px;
   background-color: var(--white);
   box-shadow: 0px 4px 20px 3px rgba(0, 0, 0, 0.25);
   border-radius: 16px;
@@ -15,12 +16,18 @@
 @media screen and (max-width: 1024px) {
   .bag-card__group-summery {
     width: 244px;
+    height: 165px;
   }
 }
 
 @media screen and (max-width: 900px) {
   .bag-card__group-summery {
     width: 177px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bag-card__group-summery {
     height: 126px;
   }
 }
@@ -28,7 +35,6 @@
 @media screen and (max-width: 725px) {
   .bag-card__group-summery {
     width: 400px;
-    height: 126px;
   }
 }
 

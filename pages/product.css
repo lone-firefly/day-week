@@ -18,8 +18,10 @@
 @import "../blocks/catalog-header/__search/catalog-header__search.css";
 @import "../blocks/catalog-header/__search-string/catalog-header__search-string.css";
 @import "../blocks/catalog-header/__text/catalog-header__text.css";
+@import "../blocks/catalog-header/__menu/catalog-header__menu.css";
 
 @import "../blocks/header/__link/header__link.css";
+@import "../blocks/header/__link/_active/header__link_active.css";
 @import "../blocks/header/__lists/header__lists.css";
 @import "../blocks/header/__nav/header__nav.css";
 
@@ -50,24 +52,29 @@
 @import "../blocks/content/__description/content__description.css";
 @import "../blocks/content/__first-price/content__first-price.css";
 @import "../blocks/content/__group-img/content__group-img.css";
-@import "../blocks/content/__img-blue-note/content__img-blue-note.css";
+@import "../blocks/content/__img-note/content__img-note.css";
 @import "../blocks/content/__img-corner/content__img-corner.css";
-@import "../blocks/content/__img-green-note/content__img-green-note.css";
 @import "../blocks/content/__img-heart2/content__img-heart2.css";
 @import "../blocks/content/__img-notebook/content__img-notebook.css";
 @import "../blocks/content/__img-pages/content__img-pages.css";
 @import "../blocks/content/__img-planner/content__img-planner.css";
-@import "../blocks/content/__img-red-note/content__img-red-note.css";
 @import "../blocks/content/__second-price/content__second-price.css";
 @import "../blocks/content/__second-price/_rub/content__second-price_rub.css";
 @import "../blocks/content/__content/content__content.css";
 @import "../blocks/content/__price/content__price.css";
+@import "../blocks/content/__change-box/content__change-box.css";
+@import "../blocks/content/__box/content__box.css";
+@import "../blocks/content/__box-subtitle/content__box-subtitle.css";
+@import "../blocks/content/__box-text/content__box-text.css";
+@import "../blocks/content/__box-title/content__box-title.css";
+@import "../blocks/content/__gr-img/content__gr-img.css";
 /* About-product */
 @import "../blocks/about-product/about-product.css";
 @import "../blocks/about-product/__subtitle/about-product__subtitle.css";
 @import "../blocks/about-product/__text/about-product__text.css";
 /* Foot text */
 @import "../blocks/foot-text/foot-text.css";
+@import "../blocks/foot-text/_link/foot-text_link.css";
 /* Footer */
 @import "../blocks/footer/__about/footer__about.css";
 @import "../blocks/footer/__author/footer__author.css";

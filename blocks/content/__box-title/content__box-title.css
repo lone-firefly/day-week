@@ -1,0 +1,14 @@
+.content__box-title {
+  width: fit-content;
+  height: 23px;
+  color: var(--pink);
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0;
+}
+
+@media screen and (max-width: 925px) {
+  .content__box-title {
+    font-size: 14px;
+  }
+}

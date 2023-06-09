@@ -7,3 +7,20 @@
   height: 36px;
   margin-top: 15px;
 }
+
+@media screen and (max-width: 925px) {
+  .content__content {
+    align-items: center;
+    gap: 25px;
+    width: fit-content;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .content__content {
+    width: 300px;
+    gap: 0;
+    justify-content: space-evenly;
+  }
+}

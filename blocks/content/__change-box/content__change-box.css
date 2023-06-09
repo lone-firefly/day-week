@@ -1,0 +1,17 @@
+.content__change-box {
+  display: flex;
+}
+
+@media screen and (max-width: 1300px) {
+  .content__change-box {
+    display: grid;
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .content__change-box {
+    align-items: center;
+    justify-content: center;
+  }
+}

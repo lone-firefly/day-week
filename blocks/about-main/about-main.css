@@ -3,6 +3,11 @@
   margin-right: 40px;
   margin-top: 57px;
   margin-bottom: 70px;
+  display: grid;
+  justify-content: center;
+  /* margin: 0 auto;
+  width: 1300px;
+  padding-top: 57px; */
 }
 
 @media screen and (max-width: 510px) {

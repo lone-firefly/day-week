@@ -1,0 +1,24 @@
+.content__box {
+  display: grid;
+}
+
+@media screen and (max-width: 1300px) {
+  .content__box {
+    height: 560px;
+    gap: 85px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .content__box {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .content__box {
+    justify-content: center;
+    width: fit-content;
+    justify-self: center;
+  }
+}

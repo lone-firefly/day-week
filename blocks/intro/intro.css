@@ -1,6 +1,35 @@
 .intro {
-  max-height: 37px;
+  height: 37px;
   display: flex;
+  align-items: center;
   gap: 17px;
   margin-top: 12px;
+  width: 1197px;
+}
+
+@media screen and (max-width: 1300px) {
+  .intro {
+    width: 758px;
+  }
+}
+
+@media screen and (max-width: 925px) {
+  .intro {
+    width: 707.09px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .intro {
+    width: 452px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .intro {
+    width: 314px;
+    flex-wrap: wrap;
+    align-items: center;
+    height: fit-content;
+  }
 }

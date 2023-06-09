@@ -14,3 +14,7 @@
     height: 373px;
   }
 }
+
+.card:hover {
+  cursor: pointer;
+}
