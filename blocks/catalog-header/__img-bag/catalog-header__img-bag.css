@@ -1,3 +1,9 @@
+.catalog-header__img-bag {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+}
+
 @media screen and (max-width: 925px) {
   .catalog-header__img-bag {
     width: 41px;

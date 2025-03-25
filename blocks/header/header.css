@@ -5,7 +5,7 @@
   max-height: 750px;
   display: flex;
   justify-content: center;
-  background-image: url("../../images/header/bg-header.png");
+  background-image: url("../../images/index/bg-img-main.png");
   background-repeat: no-repeat;
   background-size: cover;
 }

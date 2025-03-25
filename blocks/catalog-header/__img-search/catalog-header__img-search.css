@@ -1,9 +1,11 @@
 .catalog-header__img-search {
   max-width: 31.72px;
   max-height: 37px;
+  width: 25px;
+  height: 25px;
   position: relative;
   top: 2px;
-  left: 41px;
+  left: 35px;
 }
 
 @media screen and (max-width: 925px) {

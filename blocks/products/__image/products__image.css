@@ -1,7 +1,7 @@
 .products__image {
   width: 350px;
-  height: 299.59px;
-  object-fit: fill;
+  height: fit-content;
+  object-fit: cover;
 }
 
 .products__image:hover {
@@ -17,6 +17,5 @@
 @media screen and (max-width: 768px) {
   .products__image {
     width: 250px;
-    height: 213.99px;
   }
 }
