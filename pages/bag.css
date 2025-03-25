@@ -30,6 +30,7 @@
 @import "../blocks/list/list.css";
 /* Main */
 @import "../blocks/bag-main/bag-main.css";
+@import "../blocks/bag-main/__cards-group/bag-main__cards-group.css";
 @import "../blocks/bag-main/__bag-title/bag-main__bag-title.css";
 @import "../blocks/bag-main/__group-title/bag-main__group-title.css";
 @import "../blocks/bag-main/__product-num/bag-main__product-num.css";
@@ -40,6 +41,7 @@
 @import "../blocks/group-product/__group-text/group-product__group-text.css";
 @import "../blocks/group-product/__img-notebook/group-product__img-notebook.css";
 @import "../blocks/group-product/__minus/group-product__minus.css";
+@import "../blocks/group-product/__minus/_inactive/group-product__minus_inactive.css";
 @import "../blocks/group-product/__num-buttons/group-product__num-buttons.css";
 @import "../blocks/group-product/__num/group-product__num.css";
 @import "../blocks/group-product/__plus/group-product__plus.css";

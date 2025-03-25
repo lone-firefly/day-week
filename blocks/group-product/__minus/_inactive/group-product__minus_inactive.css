@@ -1,0 +1,4 @@
+.group-product__minus_inactive {
+  background-color: var(--gray);
+  cursor: default;
+}

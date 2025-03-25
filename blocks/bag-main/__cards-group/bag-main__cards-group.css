@@ -1,0 +1,6 @@
+.bag-main__cards-group {
+  display: grid;
+  gap: 20px;
+  width: 60vw;
+  max-width: 837px;
+}

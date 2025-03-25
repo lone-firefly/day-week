@@ -2,6 +2,7 @@
   height: 104px;
   display: grid;
   gap: 13px;
+  justify-content: center;
 }
 
 @media screen and (max-width: 925px) {

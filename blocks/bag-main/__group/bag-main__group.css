@@ -5,6 +5,13 @@
   margin: auto;
   justify-content: space-between;
   max-width: 1400px;
+  width: fit-content;
+}
+
+@media screen and (max-width: 1015px) {
+  .bag-main__group {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 900px) {

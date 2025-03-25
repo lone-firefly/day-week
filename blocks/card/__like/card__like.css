@@ -2,7 +2,6 @@
   border: none;
   cursor: pointer;
   background-color: var(--white);
-  margin-top: 25px;
   display: flex;
   justify-content: right;
   padding: 0;
@@ -11,7 +10,6 @@
 
 @media screen and (max-width: 925px) {
   .card__like {
-    margin-top: 16.56px;
     margin-right: 21.96px;
   }
 }

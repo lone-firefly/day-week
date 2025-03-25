@@ -54,26 +54,50 @@
         <p class="bag-main__product-num">1 товар</p>
       </div>
       <div class="bag-main__group">
-        <section class="group-product">
-          <img
-            class="group-product__img-notebook"
-            src="./images/card/img-attack-notebook.png"
-            alt="Изображение блокнота"
-          />
-          <div class="group-product__group-text">
-            <p class="group-product__title">Посвятите сердца / скетчбук</p>
-            <p class="group-product__subtitle">Отказ от товара 100 ₽</p>
-          </div>
-          <div class="group-product__num-buttons">
-            <button class="group-product__minus">-</button>
-            <span class="group-product__num">1</span>
-            <button class="group-product__plus">+</button>
-          </div>
-          <div class="group-product__price">
-            <p class="group-product__first-price">616 ₽</p>
-            <p class="group-product__second-price">827 ₽</p>
-          </div>
-        </section>
+        <div class="bag-main__cards-group">
+          <section class="group-product">
+            <img
+              class="group-product__img-notebook"
+              src="./images/card/img-attack-notebook.png"
+              alt="Изображение блокнота"
+            />
+            <div class="group-product__group-text">
+              <p class="group-product__title">Посвятите сердца / скетчбук</p>
+              <p class="group-product__subtitle">Отказ от товара 100 ₽</p>
+            </div>
+            <div class="group-product__num-buttons">
+              <button class="group-product__minus">-</button>
+              <span class="group-product__num">1</span>
+              <button class="group-product__plus">+</button>
+            </div>
+            <div class="group-product__price">
+              <p class="group-product__first-price">616 ₽</p>
+              <p class="group-product__second-price">827 ₽</p>
+            </div>
+          </section>
+          <template id="product-card">
+            <section class="group-product">
+              <img
+                class="group-product__img-notebook"
+                src="./images/card/img-attack-notebook.png"
+                alt="Изображение блокнота"
+              />
+              <div class="group-product__group-text">
+                <p class="group-product__title">Посвятите сердца / скетчбук</p>
+                <p class="group-product__subtitle">Отказ от товара 100 ₽</p>
+              </div>
+              <div class="group-product__num-buttons">
+                <button class="group-product__minus">-</button>
+                <span class="group-product__num">1</span>
+                <button class="group-product__plus">+</button>
+              </div>
+              <div class="group-product__price">
+                <p class="group-product__first-price">616 ₽</p>
+                <p class="group-product__second-price">827 ₽</p>
+              </div>
+            </section>
+          </template>
+        </div>
         <section class="bag-card">
           <div class="bag-card__group-summery">
             <div class="bag-card__price">
@@ -188,5 +212,6 @@
         </div>
       </div>
     </footer>
+    <script src="./scripts/main.js"></script>
   </body>
 </html>

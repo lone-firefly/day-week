@@ -4,7 +4,7 @@
   margin-right: 26px;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1015px) {
   .group-product__price {
     flex-direction: column;
   }

@@ -1,11 +1,12 @@
 .card__button-group {
   display: flex;
   gap: 21px;
+  max-width: 308px;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 925px) {
   .card__button-group {
     gap: 13.77px;
-    margin-left: 38px;
   }
 }

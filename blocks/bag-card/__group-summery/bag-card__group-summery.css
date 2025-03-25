@@ -13,6 +13,13 @@
   border-radius: 16px;
 }
 
+/* @media screen and (max-width: 1015px) {
+  .bag-card__group-summery {
+    width: auto;
+    height: 165px;
+  }
+} */
+
 @media screen and (max-width: 1024px) {
   .bag-card__group-summery {
     width: 244px;
@@ -29,10 +36,11 @@
 @media screen and (max-width: 768px) {
   .bag-card__group-summery {
     height: 126px;
+    width: 400px;
   }
 }
 
-@media screen and (max-width: 725px) {
+@media screen and (max-width: 770px) {
   .bag-card__group-summery {
     width: 400px;
   }

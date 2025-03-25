@@ -35,5 +35,6 @@
   .about-main__about-text {
     font-size: 12px;
     width: 240px;
+    text-align: justify;
   }
 }
